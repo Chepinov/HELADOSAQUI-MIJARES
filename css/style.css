@@ -1,0 +1,1861 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+}
+
+/*------------------------------------------------------------------Estilos para el header y footer de todas las paginas html------------------------------------------------------------*/
+
+/* --------------------------------------------------------------------------------Estilos para el header-------------------------------------------------------------------------------*/
+
+.encabezado {
+    background-color: darkred;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    max-width: 1340px;
+    margin: auto;
+}
+
+.logo {
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    gap: 4rem;
+    font-family: 'Permanent Marker', cursive;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+.menu__phono {
+    display: none;
+}
+
+/* -----------------------------------------------------------------------------------Estilos para el footer------------------------------------------------------------------------------*/
+
+.pie {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+}
+.pie__superior {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    color: grey;
+}
+
+.pie__superior-redes {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+.pie__superior-ws {
+    width: 40px;
+    height: 40px;
+    translate: 42px;
+    opacity: 0.5;
+}
+.pie__superior-logo {
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+
+}
+.pie__superior-ws--texto {
+    font-size: 30px;
+}
+.pie__superior-redes--texto {
+    font-size: 30px;
+    margin-left: 10px;
+    
+}
+
+.pie__inferior {
+    background-color: darkred;
+    color:  white;
+    text-align: center;
+    letter-spacing: 3px;
+    height: 65px;
+    font-size: 25px;
+}
+
+.pie__inferior span {
+    font-size: 27px;
+}
+
+
+/* ---------------------------------------------------------Estilos para el main de la pagina index------------------------------------------------------------------------*/
+
+main {
+    margin: auto;
+    max-width: 1340px;
+}
+.photoslider {
+    width: 100%;
+}
+.contenido p {
+padding: 2rem;
+}
+
+.contenido__titulo {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    padding-bottom: 2rem;
+    gap: 3rem;
+}
+
+
+.contenido__card--barquillo {
+    width: 350px;
+    height: 320px;
+    border: solid darkred;
+    position: relative;
+    background-image: url(../assets/imagenes/3\ barquillos.jpg);
+    background-size: 350px, 220px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.contenido__card--vasos {
+    width: 350px;
+    height: 320px;
+    border: solid darkred;
+    position: relative;
+    background-image: url(../assets/imagenes/helado\ de\ vaso.jpg);
+    background-size: 350px, 220px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.contenido__card--paletas {
+    width: 350px;
+    height: 320px;
+    border: solid darkred;
+    position: relative;
+    background-image: url(../assets/imagenes/paletas\ portada.jpg);
+    background-size: 350px, 220px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.contenido__card--cassatas {
+    width: 350px;
+    height: 320px;
+    border: solid darkred;
+    position: relative;
+    background-image: url(../assets/imagenes/cassatas.jpeg);
+    background-size: 350px, 220px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.contenido__card--tortas {
+    width: 350px;
+    height: 320px;
+    border: solid darkred;
+    position: relative;
+    background-image: url(../assets/imagenes/torta\ index.jpg);
+    background-size: 350px, 220px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.contenido__card--bebidas {
+    width: 350px;
+    height: 320px;
+    border: solid darkred;
+    position: relative;
+    background-image: url(../assets/imagenes/bebidas.jpg);
+    background-size: 350px, 220px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.contenido__card--granizados {
+    width: 350px;
+    height: 320px;
+    border: solid darkred;
+    position: relative;
+    background-image: url(../assets/imagenes/granizados\ index.jpg);
+    background-size: 350px, 220px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+.contenido__card--generico {
+    
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    background-color:white;
+    position: absolute;
+    left: 6%;
+    bottom: 0;
+    justify-items: center;
+    border-radius: 5px;
+}
+.contenido__card--generico p  {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0;
+}
+.contenido__card--generico h5 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+
+
+/*----------------------------------------------------------- PAGINA DE QUIENES SOMOS BODY----------------------------------------------------------------------------------*/
+.somos h2 {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: 2rem;
+}
+.somos__contenido {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.somos {
+    position: relative;
+}
+.somos__contenido img {
+    border-radius: 10px;
+    width: 20%;
+    height: 20%;
+   margin-top: auto;
+   margin-bottom: auto;
+   
+}
+
+.somos__contenido p {
+    width: 60%;
+    text-align: center;
+    text-align: justify;
+}
+.somos__span {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.somos__valores {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 2fr 1fr;
+    height: 550px;    
+}
+
+.somos__valores p {
+    padding: 1rem;
+    margin-left: 6rem;
+   
+}
+
+.somos__valores img {
+    width: 400px;
+    align-self: center;
+}
+.somos__contenido--vision {
+    align-self: center;
+}
+
+.somos__subtitulo {
+    display: none;
+}
+/* -----------------------------------------------------------PAGINA DE CONTACTO BODY --------------------------------------------------------------------------------------*/
+.contactanos {
+    display: grid;
+    width: 100%;
+    height: 800px;
+    margin: 2rem;
+    padding: 2rem;
+    padding-left: 2rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas:  
+    
+    "titulo  titulo   titulo       titulo     titulo"
+    "datos   datos   formulario  formulario  formulario"   
+    "datos   datos   formulario  formulario  formulario" 
+    "datos   datos   formulario  formulario  formulario" 
+    "datos   datos   formulario  formulario  formulario" 
+    "datos   datos   formulario  formulario  formulario" 
+    "datos   datos   formulario  formulario  formulario" 
+    ; 
+}
+
+
+.contactanos__datos {
+    grid-area: datos;
+    background-color: darkred;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+
+}
+
+
+.contactanos__datos-contenido {
+    margin-bottom: 3rem;
+}
+.contactanos__datos small {
+    display: block;
+}
+
+.contactanos__titulo {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    grid-area: titulo;
+    
+}
+.contactanos__form {
+    grid-area: formulario;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 2rem;   
+}
+.contactanos__form h4 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contactanos__input {
+    border: none;
+    border-bottom: solid grey;
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 40px;
+}
+.contactanos__input-textarea {
+    height: 80px;
+}
+
+.contactos__contenedor--botones {
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.contactanos__btn {
+    padding: 10px;
+    border: none;
+    background-color:darkred;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+/* -------------------------------------------------------------------------PAGINA DE ENCUENTRANOS BODY--------------------------------------------------------------------------------*/
+
+
+.encuentranos__titulo {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.encuentranos__main img {
+    border-radius: 10px;
+    outline: solid darkred 5px;
+    
+}
+.encuentranos__contenido {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.encuentranos__img {
+    width: 450px;
+    height: 400px;
+}
+.encuentranos__contenido iframe {
+    border-radius: 10px;
+    outline: solid darkred 5px;
+}
+.encuentranos__main p {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.encuentranos__table {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.encuentranos__table td {
+    background-color: rgb(198, 193, 193);
+    border-radius: 5px;
+    border: none;
+}
+.encuentranos__table th {
+    background-color: darkred;
+    border-radius: 5px;
+    color: white;
+}
+
+/*---------------------------------------------------------------------------- PAGINA DE PRODUCTOS BODY---------------------------------------------------------------------------------*/
+
+.productos__titulo {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: 2rem;
+    margin-bottom: 0;
+}
+
+.productos {
+    position: relative;
+}
+
+.arriba {
+    background-color: darkred;
+    color: white;
+   width: 60px;
+   height: 60px;
+   font-size: 2.5rem;
+   border-radius: 50%;
+   overflow: hidden;
+   position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    position: fixed;
+    border: solid white;
+}
+
+.arriba span {
+    display: grid;
+    justify-content: center;
+    align-self: center;
+}
+
+.arriba a {
+    text-decoration: none;
+    color: white;
+}
+
+.productos__tarjetas--titulo {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* BARQUILLOS*/
+
+.productos__barquillos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+}
+
+.productos__contenedor--barquillos {
+    width: 300px;
+    height: 470px;
+    border: solid darkred;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+    margin-bottom: 2rem;
+    
+    
+}
+
+.productos__contenedor--barquillos img {
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.productos__contenedor--barquillos-titulo {
+    text-align: center;
+    align-self: center;
+    font-size: 2.5rem;
+    
+
+}
+
+.productos__contenedor--barquillos-descripcion {
+    color: grey;
+    text-align: center;
+    font-size: 1.3rem;
+    
+
+}
+
+.productos__contenedor--barquillos-precio {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+
+}
+
+/* HELADOS EN VASO*/
+
+.productos__vasos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+}
+.productos__contenedor--vasos  {
+    width: 300px;
+    height: 470px;
+    border: solid darkred;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+    margin-bottom: 2rem;
+    
+}
+
+.productos__contenedor--vasos  img {
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.productos__contenedor--vasos-titulo {
+    text-align: center;
+    align-self: center;
+
+}
+
+.productos__contenedor--vasos-descripcion {
+    color: grey;
+    text-align: center;
+    font-size: 1.3rem;
+    
+
+}
+
+.productos__contenedor--vasos-precio {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+
+}
+    
+/* PALETAS*/
+
+.productos__paletas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+}
+.productos__contenedor--paletas {
+    width: 300px;
+    height: 470px;
+    border: solid darkred;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+    margin-bottom: 2rem;
+    
+}
+
+.productos__contenedor--paletas img {
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.productos__contenedor--paletas-titulo {
+    text-align: center;
+    align-self: center;
+
+}
+
+.productos__contenedor--paletas-descripcion {
+    color: grey;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 5px;
+    
+}
+
+.productos__contenedor--paletas-precio {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+/* CASSATAS*/
+
+.productos__cassatas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+}
+.productos__contenedor--cassatas {
+    width: 300px;
+    height: 470px;
+    border: solid darkred;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+    margin-bottom: 2rem;
+    
+}
+
+.productos__contenedor--cassatas img {
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.productos__contenedor--cassatas-titulo {
+    text-align: center;
+    align-self: center;
+
+}
+
+.productos__contenedor--cassatas-descripcion {
+    color: grey;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 5px;
+    
+}
+
+.productos__contenedor--cassatas-precio {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+
+}
+/* TORTAS*/
+
+.productos__tortas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+}
+.productos__contenedor--tortas {
+    width: 300px;
+    height: 470px;
+    border: solid darkred;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+    margin-bottom: 2rem;
+    
+}
+
+.productos__contenedor--tortas img {
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.productos__contenedor--tortas-titulo {
+    text-align: center;
+    align-self: center;
+
+}
+
+.productos__contenedor--tortas-descripcion {
+    color: grey;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 5px;
+    
+}
+
+.productos__contenedor--tortas-precio {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+/* BEBIDAS*/
+
+.productos__bebidas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+}
+.productos__contenedor--bebidas {
+    width: 300px;
+    height: 470px;
+    border: solid darkred;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+    margin-bottom: 2rem;
+    
+}
+
+.productos__contenedor--bebidas img {
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.productos__contenedor--bebidas-titulo {
+    text-align: center;
+    align-self: center;
+
+}
+
+.productos__contenedor--bebidas-descripcion {
+    color: grey;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 5px;
+    
+}
+
+.productos__contenedor--bebidas-precio {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+/* GRANIZADOS*/
+
+.productos__granizados{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+}
+.productos__contenedor--granizados {
+    width: 300px;
+    height: 470px;
+    border: solid darkred;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+    margin-bottom: 2rem;
+    
+}
+
+.productos__contenedor--granizados img {
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.productos__contenedor--granizados-titulo {
+    text-align: center;
+    align-self: center;
+
+}
+
+.productos__contenedor--granizados-descripcion {
+    color: grey;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 5px;
+    
+}
+
+.productos__contenedor--granizados-precio {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+    
+}
+/*---------MEDIAS MOBIBLE LAST---------*/
+/*-------------------------MEDIAS QUERIES - PANTALLA HASTA 1340PX------------------------*/
+
+@media screen and (max-width: 1340px) {
+
+    .productos__barquillos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+        
+    .productos__vasos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    
+    }
+   
+
+.productos__paletas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+}
+
+.productos__cassatas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+}
+
+.productos__tortas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+}
+
+.productos__bebidas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+}
+
+.productos__granizados{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+    /*INDEX*/
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-bottom: 2rem;
+    
+}
+    /*QUIENES SOMOS*/
+
+.somos__contenido img {
+    width: 30%;
+}
+
+.somos__contenido p {
+    width: 50%;
+}
+
+
+.somos__valores {
+    margin-bottom: 5rem;  
+}
+
+
+.somos__valores img {
+    width: 300px;
+}
+
+
+}
+
+/*-------------------------MEDIAS QUERIES - PANTALLA HASTA 1000PX------------------------*/
+
+@media screen and (max-width: 1000px) {
+
+        /* HEADER*/
+
+    .logo {
+        margin-right: 2rem;
+    }
+    
+    .menu {
+        gap: 1rem;
+    }
+    .menu a {
+        font-size: 1rem;
+    }
+
+        /*PRODUCTOS*/
+
+    .productos__barquillos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+        
+    .productos__vasos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    
+    }
+   
+
+    .productos__paletas{
+        display: grid;
+     grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+    }
+
+    .productos__cassatas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+    }
+
+    .productos__tortas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+    }
+
+    .productos__bebidas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .productos__granizados{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+        /*--INDEX--*/
+    .contenido {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contenido__card--barquillo {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+        
+    }
+    .contenido__card--vasos {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+        
+    }
+    .contenido__card--paletas {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+        
+    }
+    .contenido__card--cassatas {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+  
+    }
+    .contenido__card--tortas {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+    }
+    .contenido__card--bebidas {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+    }
+    .contenido__card--granizados {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+        
+    }
+    .contenido__card--generico {
+        width: 200px;
+        height: 66px;
+    }
+    .contenido__card--generico p  {
+        font-size: .8rem;
+    }
+    .contenido__card--generico h5 { 
+        letter-spacing: 1px;
+    }
+
+        /*QUIENES SOMOS*/
+
+    .somos h2 {
+        font-size: 2.3rem;
+        margin-bottom: 0;
+    }
+    .somos__contenido {
+        display: inline-block; 
+    }
+    
+    .somos__contenido img {
+     width: 100%;
+     margin-bottom: 1rem; 
+    }
+    
+    .somos__contenido p {
+        width: 100%;  
+    }
+     
+    .somos__valores {
+        display: grid;
+        justify-items: start;
+        grid-template-columns: 1fr;
+        height: auto;
+       
+    }
+    
+    .somos__valores p {
+        margin-left: 12px;
+    }
+    
+    .somos__valores img {
+        display: none;
+    }
+    .somos__contenido--vision {
+        align-self: center;
+        width: 100%;
+
+    }
+    .somos__img {
+        display: none;
+    }
+    .somos__subtitulo {
+        display: grid;
+        justify-content: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: .1rem;
+
+    }
+    /*ENCUENTRANOS*/
+    
+    
+    .encuentranos__contenido {
+        display: grid;
+        justify-content: center;
+    }
+    
+    .encuentranos__contenido iframe {
+        margin-top: 2rem;
+    }
+    .encuentranos__main p {
+        font-size: 1.5rem;
+    }
+    .encuentranos__table {
+        width: 50%;   
+    }
+    .encuentranos__titulo {
+        font-size: 2.5rem;
+    }
+
+    .contactanos__titulo {
+        letter-spacing: 3px;
+    }
+    
+}
+
+/*-------------------------MEDIAS QUERIES - PANTALLA HASTA 650PX------------------------*/
+@media screen and (max-width: 650px) {
+
+        /*PRODUCTO*/
+    .productos__tarjetas--titulo {
+        font-size: 1.4rem;
+        padding-top: 0;
+        padding-bottom: 1rem;
+     }       
+
+    
+    .productos__barquillos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .productos__contenedor--barquillos {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--barquillos img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--barquillos-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--barquillos-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+        
+    }
+    
+    .productos__contenedor--barquillos-precio {
+        font-size: 2rem;  
+    }
+        /*---VASOS---*/
+
+    .productos__vasos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    
+    }
+    .productos__contenedor--vasos {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--vasos img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--vasos-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--vasos-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+    }
+    
+    .productos__contenedor--vasos-precio {
+        font-size: 2rem;  
+    }
+   
+        /* --PALETAS--*/
+
+    .productos__paletas{
+         display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+    }
+    .productos__contenedor--paletas {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--paletas img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--paletas-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--paletas-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+    }
+    
+    .productos__contenedor--paletas-precio {
+        font-size: 2rem;  
+    }
+
+            /*CASSATAS*/
+
+    .productos__cassatas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .productos__contenedor--cassatas {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--cassatas img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--cassatas-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--cassatas-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    
+    .productos__contenedor--cassatas-precio {
+        font-size: 2rem;  
+        overflow: hidden;
+    }
+
+        /*TORTAS*/
+
+    .productos__tortas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .productos__contenedor--tortas {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--tortas img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--tortas-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--tortas-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+    }
+    
+    .productos__contenedor--tortas-precio {
+        font-size: 2rem;  
+    }
+
+        /*BEBIDAS*/
+
+    .productos__bebidas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+    }
+    .productos__contenedor--bebidas {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--bebidas img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--bebidas-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--bebidas-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+    }
+    
+    .productos__contenedor--bebidas-precio {
+        font-size: 2rem;  
+    }
+
+        /*GRANIZADOS*/
+    .productos__granizados{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+    }
+    .productos__contenedor--granizados {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--granizados img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--granizados-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--granizados-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+    }
+    
+    .productos__contenedor--granizados-precio {
+        font-size: 2rem;  
+    }
+
+          /* header*/
+    .logo {
+        align-items: center;
+        width: 60px;
+    }
+    
+    .menu a {
+        display: none; 
+    }
+
+    .menu__phono {
+        display: grid;
+        color: white;
+        text-align: end;
+        font-size: 3rem;
+    }
+    .productos__titulo {
+        font-family: 'Permanent Marker', cursive;
+        letter-spacing: 10px;
+        text-align: center;
+        margin: 2rem;
+        font-size: 2.2rem;
+        margin-bottom: .7rem;
+    }
+    /*footer*/
+    
+    .pie__superior {
+        height: 75px;
+    }
+    
+    .pie__superior-redes {
+        width: 30px;
+        height: 30px;
+    }
+    .pie__superior-ws {
+        width: 40px;
+        height: 40px;
+        translate: 30px;
+    }
+    .pie__superior-logo {
+        width: 50px;
+        height: 50px;
+    
+    }
+    .pie__superior-ws--texto {
+        font-size: 20px;
+    }
+    .pie__superior-redes--texto {
+        font-size: 20px;
+        margin-left: 10px;
+        
+    }
+    
+    .pie__inferior {
+        letter-spacing: 1px;
+        height: 60px;
+        font-size: 14px;
+    }
+    
+    .pie__inferior span {
+        font-size: 27px;
+    } 
+    /*--------------index--------*/
+    .contenido {
+         grid-template-columns: 1fr;   
+    }
+
+    /*---------QUINES SOMOS-------------*/
+    .somos h2 {
+        font-size: 1.7rem; 
+    }
+    
+    .somos__contenido p {
+        width: 100%; 
+        font-size: 1.5rem; 
+    }
+     
+    .somos__valores p {
+        font-size: 1.5rem; 
+    }
+    /* ENCUENTRANOS*/
+
+    .encuentranos__img {
+        width: 280px;
+        height: 280px;
+    }
+    
+    .encuentranos__main p {
+        font-size: 1rem;
+    }
+    .encuentranos__table {
+        width: 90%;   
+    }
+    .encuentranos__titulo {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+    /*CONTACTANOS*/
+    .contactanos {
+       display: flex;
+       flex-direction: column;
+       padding-left: 0;  
+       padding-top: 0;  
+    }
+    
+    .contactanos__datos {
+        font-size: 1.8rem;
+        width: 90%;
+    }
+
+    .contactanos {
+        height: 1300px;
+    }
+    
+    .contactanos__datos-contenido {
+        margin-bottom: 3rem;
+    }
+    .contactanos__datos small {
+        display: block;
+    }
+    
+    .contactanos__titulo {
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        padding-bottom: 1rem; 
+    }
+    .contactanos__form {
+        padding: 1rem;
+        padding-left: 0;
+        padding-right: 0; 
+        width: 85%;  
+    
+    }
+    .contactanos__form h4 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .contactanos__btn {
+        padding: 8px;
+        font-size: 1rem;  
+    }
+}
+
+/*-------------------------MEDIAS QUERIES - PANTALLA HASTA 440PX------------------------*/
+@media screen and (max-width: 440px) {
+
+            /*-----PRODUCTOS-----*/
+
+     .productos__tarjetas--titulo {
+        font-size: 1.4rem;
+        padding-top: 0;
+        padding-bottom: 1rem;
+     }       
+
+    
+    .productos__barquillos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .productos__contenedor--barquillos {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--barquillos img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--barquillos-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--barquillos-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+        
+    }
+    
+    .productos__contenedor--barquillos-precio {
+        font-size: 2rem;  
+    }
+        /*---VASOS---*/
+
+    .productos__vasos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    
+    }
+    .productos__contenedor--vasos {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--vasos img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--vasos-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--vasos-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+    }
+    
+    .productos__contenedor--vasos-precio {
+        font-size: 2rem;  
+    }
+   
+        /* --PALETAS--*/
+
+    .productos__paletas{
+         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+
+    }
+    .productos__contenedor--paletas {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--paletas img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--paletas-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--paletas-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+    }
+    
+    .productos__contenedor--paletas-precio {
+        font-size: 2rem;  
+    }
+
+            /*CASSATAS*/
+
+    .productos__cassatas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .productos__contenedor--cassatas {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--cassatas img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--cassatas-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--cassatas-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    
+    .productos__contenedor--cassatas-precio {
+        font-size: 2rem;  
+    }
+
+        /*TORTAS*/
+
+    .productos__tortas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .productos__contenedor--tortas {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--tortas img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--tortas-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--tortas-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+    }
+    
+    .productos__contenedor--tortas-precio {
+        font-size: 2rem;  
+    }
+
+        /*BEBIDAS*/
+
+    .productos__bebidas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+
+    }
+    .productos__contenedor--bebidas {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--bebidas img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--bebidas-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--bebidas-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+    }
+    
+    .productos__contenedor--bebidas-precio {
+        font-size: 2rem;  
+    }
+
+        /*GRANIZADOS*/
+    .productos__granizados{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+
+    }
+    .productos__contenedor--granizados {
+        width: 200px;
+        height: 313px;
+    
+    }
+    
+    .productos__contenedor--granizados img {
+        width: 166px;
+    }
+    
+    .productos__contenedor--granizados-titulo {
+        font-size: 1.6rem;    
+    }
+    
+    .productos__contenedor--granizados-descripcion {
+        color: grey;
+        text-align: center;
+        font-size: 0.86rem;
+    }
+    
+    .productos__contenedor--granizados-precio {
+        font-size: 2rem;  
+    }
+
+          /* header*/
+    .logo {
+        align-items: center;
+        width: 60px;
+    }
+    
+    .menu a {
+        display: none; 
+    }
+
+    .menu__phono {
+        display: grid;
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .productos__titulo {
+        font-family: 'Permanent Marker', cursive;
+        letter-spacing: 10px;
+        text-align: center;
+        margin: 2rem;
+        font-size: 2.2rem;
+        margin-bottom: .7rem;
+    }
+    /*footer*/
+
+    
+    .pie__superior {
+        height: 75px;
+    }
+    
+    .pie__superior-redes {
+        width: 30px;
+        height: 30px;
+    }
+    .pie__superior-ws {
+        width: 40px;
+        height: 40px;
+        translate: 30px;
+    }
+    .pie__superior-logo {
+        width: 50px;
+        height: 50px;
+    
+    }
+    .pie__superior-ws--texto {
+        font-size: 20px;
+    }
+    .pie__superior-redes--texto {
+        font-size: 20px;
+        margin-left: 10px;
+        
+    }
+    
+    .pie__inferior {
+        letter-spacing: 1px;
+        height: 60px;
+        font-size: 14px;
+    }
+    
+    .pie__inferior span {
+        font-size: 27px;
+    }
+    
+    /*INDEX*/
+    .contenido__titulo {
+        font-size: 1.5rem;
+    }
+    
+    .contenido {
+        grid-template-columns: 1fr;   
+    }
+    
+    
+    .contenido__card--barquillo {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+        
+    }
+    .contenido__card--vasos {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+        
+    }
+    .contenido__card--paletas {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+        
+    }
+    .contenido__card--cassatas {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+  
+    }
+    .contenido__card--tortas {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+    }
+    .contenido__card--bebidas {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+    }
+    .contenido__card--granizados {
+        width: 233px;
+        height: 213px;
+        background-size: 233px;
+        
+    }
+    .contenido__card--generico {
+        width: 200px;
+        height: 66px;
+    }
+    .contenido__card--generico p  {
+        font-size: .8rem;
+    }
+    .contenido__card--generico h5 { 
+        letter-spacing: 1px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
