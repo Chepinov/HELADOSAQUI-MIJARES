@@ -14,7 +14,8 @@ body {
 /* --------------------------------------------------------------------------------Estilos para el header-------------------------------------------------------------------------------*/
 
 .encabezado {
-    background-color: darkred;
+    background: rgb(113,42,47);
+    background: linear-gradient(90deg, rgba(113,42,47,1) 16%, rgba(185,34,45,1) 53%, rgba(97,52,55,1) 100%);
 }
 
 header {
@@ -45,6 +46,15 @@ header {
 .menu__phono {
     display: none;
 }
+
+.menu a:hover {
+    color: darkred;
+    border: solid white;
+    background-color: white;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
 
 /* -----------------------------------------------------------------------------------Estilos para el footer------------------------------------------------------------------------------*/
 
@@ -91,7 +101,8 @@ header {
 }
 
 .pie__inferior {
-    background-color: darkred;
+    background: rgb(113,42,47);
+    background: linear-gradient(90deg, rgba(113,42,47,1) 16%, rgba(185,34,45,1) 53%, rgba(97,52,55,1) 100%);
     color:  white;
     text-align: center;
     letter-spacing: 3px;
@@ -101,6 +112,16 @@ header {
 
 .pie__inferior span {
     font-size: 27px;
+    animation: palpito 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes palpito {
+    100% { color:  red;
+
+    }
+    
+    
 }
 
 
@@ -203,10 +224,11 @@ padding: 2rem;
     background-size: 350px, 220px;
     background-repeat: no-repeat;
     border-radius: 10px;
+    position: relative;
     
 }
+
 .contenido__card--generico {
-    
     width: 300px;
     height: 100px;
     justify-content: center;
@@ -227,6 +249,58 @@ padding: 2rem;
     letter-spacing: 5px;
 }
 
+
+@keyframes cardcambiocolor {
+    100%{
+        background-color: darkred;
+        color: white;
+
+    }
+    
+}
+
+.generico1{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    
+}
+
+.generico2{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+.generico3{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 7s;
+}
+
+.generico4{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 10s;
+}
+
+.generico5{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 13s;
+}
+.generico6{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 16s;
+}
+.generico7{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 19s;
+}
+
+  
 
 
 /*----------------------------------------------------------- PAGINA DE QUIENES SOMOS BODY----------------------------------------------------------------------------------*/
@@ -249,10 +323,26 @@ padding: 2rem;
     border-radius: 10px;
     width: 20%;
     height: 20%;
-   margin-top: auto;
-   margin-bottom: auto;
-   
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
+.blink-1 {
+    animation-name: blink-1;
+    animation-duration: 10s;
+}
+
+@keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
 
 .somos__contenido p {
     width: 60%;
@@ -313,10 +403,11 @@ padding: 2rem;
 
 .contactanos__datos {
     grid-area: datos;
-    background-color: darkred;
     text-align: center;
     padding: 1rem;
     color: white;
+    background: rgb(113,42,47);
+    background: linear-gradient(90deg, rgba(113,42,47,1) 16%, rgba(185,34,45,1) 53%, rgba(97,52,55,1) 100%);
 
 }
 
@@ -375,6 +466,14 @@ padding: 2rem;
     
 }
 
+.contactanos__btn:hover {
+    background-color: black;
+}
+
+.contactanos__input:hover {
+    border-bottom: solid darkred;
+}
+
 /* -------------------------------------------------------------------------PAGINA DE ENCUENTRANOS BODY--------------------------------------------------------------------------------*/
 
 
@@ -422,10 +521,12 @@ padding: 2rem;
     border: none;
 }
 .encuentranos__table th {
-    background-color: darkred;
+    background: rgb(113,42,47);
+    background: linear-gradient(90deg, rgba(113,42,47,1) 16%, rgba(185,34,45,1) 53%, rgba(97,52,55,1) 100%);
     border-radius: 5px;
     color: white;
 }
+
 
 /*---------------------------------------------------------------------------- PAGINA DE PRODUCTOS BODY---------------------------------------------------------------------------------*/
 
@@ -465,6 +566,11 @@ padding: 2rem;
 .arriba a {
     text-decoration: none;
     color: white;
+}
+
+.arriba:hover {
+    
+background-color: black;
 }
 
 .productos__tarjetas--titulo {
@@ -525,8 +631,14 @@ padding: 2rem;
     text-align: center;
     letter-spacing: 3px;
     padding: 10px;
+    
 
 }
+
+.productos__contenedor--barquillos:hover {
+    transform: scale(1.1222);   
+}
+
 
 /* HELADOS EN VASO*/
 
@@ -577,6 +689,10 @@ padding: 2rem;
     padding: 10px;
 
 }
+
+.productos__contenedor--vasos:hover {
+    transform: scale(1.1222);   
+}
     
 /* PALETAS*/
 
@@ -626,6 +742,10 @@ padding: 2rem;
     letter-spacing: 3px;
     padding: 10px;
 }
+
+.productos__contenedor--paletas:hover {
+    transform: scale(1.1222);   
+}
 /* CASSATAS*/
 
 .productos__cassatas{
@@ -673,7 +793,10 @@ padding: 2rem;
     text-align: center;
     letter-spacing: 3px;
     padding: 10px;
+}
 
+.productos__contenedor--cassatas:hover {
+    transform: scale(1.1222);   
 }
 /* TORTAS*/
 
@@ -723,7 +846,10 @@ padding: 2rem;
     letter-spacing: 3px;
     padding: 10px;
     overflow: hidden;
+}
 
+.productos__contenedor--tortas:hover {
+    transform: scale(1.1222);   
 }
 /* BEBIDAS*/
 
@@ -776,6 +902,10 @@ padding: 2rem;
 
 }
 
+.productos__contenedor--bebidas:hover {
+    transform: scale(1.1222);   
+}
+
 /* GRANIZADOS*/
 
 .productos__granizados{
@@ -823,7 +953,10 @@ padding: 2rem;
     text-align: center;
     letter-spacing: 3px;
     padding: 10px;
-    
+}
+
+.productos__contenedor--granizados:hover {
+    transform: scale(1.1222);   
 }
 /*---------MEDIAS MOBIBLE LAST---------*/
 /*-------------------------MEDIAS QUERIES - PANTALLA HASTA 1340PX------------------------*/
