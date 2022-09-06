@@ -18,6 +18,14 @@ body {
     background: linear-gradient(90deg, rgba(113,42,47,1) 16%, rgba(185,34,45,1) 53%, rgba(97,52,55,1) 100%);
 }
 
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.4rem;
+}
+
+/*
 header {
     height: 100px;
     display: flex;
@@ -55,49 +63,14 @@ header {
     padding: .5rem;
 }
 
-
+*/
 /* -----------------------------------------------------------------------------------Estilos para el footer------------------------------------------------------------------------------*/
 
-.pie {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    
-}
-.pie__superior {
-    background-color: black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100px;
-    color: grey;
-}
 
-.pie__superior-redes {
-    width: 50px;
-    height: 50px;
-    opacity: 0.5;
-}
-.pie__superior-ws {
-    width: 40px;
-    height: 40px;
-    translate: 42px;
-    opacity: 0.5;
-}
 .pie__superior-logo {
     width: 80px;
     height: 80px;
     opacity: 0.5;
-
-}
-.pie__superior-ws--texto {
-    font-size: 30px;
-}
-.pie__superior-redes--texto {
-    font-size: 30px;
-    margin-left: 10px;
-    
 }
 
 .pie__inferior {
@@ -106,7 +79,6 @@ header {
     color:  white;
     text-align: center;
     letter-spacing: 3px;
-    height: 65px;
     font-size: 25px;
 }
 
@@ -120,8 +92,6 @@ header {
     100% { color:  red;
 
     }
-    
-    
 }
 
 
