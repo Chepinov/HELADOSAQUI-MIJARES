@@ -130,27 +130,21 @@ body {
 
 
 /*----------------------------------------------------------- PAGINA DE QUIENES SOMOS BODY----------------------------------------------------------------------------------*/
+
+.somos__subtitulo {
+    display: none;
+}
+
+.somos__span {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
 .somos h2 {
     font-family: 'Permanent Marker', cursive;
     letter-spacing: 10px;
     text-align: center;
     margin: 2rem;
-}
-.somos__contenido {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 2rem;
-}
-
-.somos {
-    position: relative;
-}
-.somos__contenido img {
-    border-radius: 10px;
-    width: 20%;
-    height: 20%;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 .blink-1 {
@@ -170,40 +164,6 @@ body {
     }
   }
 
-.somos__contenido p {
-    width: 60%;
-    text-align: center;
-    text-align: justify;
-}
-.somos__span {
-    font-weight: bold;
-    padding-right: 10px;
-}
-
-.somos__valores {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 2fr 1fr;
-    height: 550px;    
-}
-
-.somos__valores p {
-    padding: 1rem;
-    margin-left: 6rem;
-   
-}
-
-.somos__valores img {
-    width: 400px;
-    align-self: center;
-}
-.somos__contenido--vision {
-    align-self: center;
-}
-
-.somos__subtitulo {
-    display: none;
-}
 /* -----------------------------------------------------------PAGINA DE CONTACTO BODY --------------------------------------------------------------------------------------*/
 .contactanos {
     display: grid;
