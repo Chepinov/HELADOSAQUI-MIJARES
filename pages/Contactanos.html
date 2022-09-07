@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactanos</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../assets/favion/Ha Logo favicon.ico" type="image/x-icon">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Helados Aquí</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Permanent+Marker&display=swap" rel="stylesheet" />
+        <link rel="shortcut icon" href="./assets/favion/Ha Logo favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
     <body>
-        <section class="encabezado">
-            <header>
-                <a href="../index.html"><img src="../assets/imagenes/logo ha png.png" width="80px" class="logo" alt="logo ha"></a>
-                <div class="header__derecho">
-                    <nav>
-                        <ul class="menu">
-                            <li><a href="../index.html" class="active">Inicio</a></li>
-                            <li><a href="Productos.html" class="menu__boton">Productos</a></li>
-                            <li><a href="Quienes Somos.html" class="menu__boton">Quienes Somos</a></li>
-                            <li><a href="Encuentranos.html" class="menu__boton">Encuentranos</a></li>
-                            <li><a href="Contactanos.html" class="menu__boton">Contáctanos</a></li>
-                        </ul>
-                    </nav>
-                    <span class="menu__phono">MENÚ</span>
-                </div>
-            </header>
-        </section>
+        <header>
+            <nav class="navbar navbar-expand-lg encabezado">
+                   <div class="container">
+                     <a class="navbar-brand" href="#"><img src="../assets/imagenes/logo ha png.png" width="80px" alt="logo helados aqui png"></a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarNav">
+                       <ul class="navbar-nav ms-auto">
+                         <li class="nav-item">
+                           <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                         </li>
+                         <li class="nav-item ms-4">
+                           <a class="nav-link" href="./Productos.html">Productos</a>
+                         </li>
+                         <li class="nav-item ms-4">
+                           <a class="nav-link" href="../pages/Quienes Somos.html">Quiénes Somos</a>
+                         </li>
+                         <li class="nav-item ms-4">
+                           <a class="nav-link active" href="../pages/Encuentranos.html">Encuentranos</a>
+                         </li>
+                         <li class="nav-item ms-4">
+                           <a class="nav-link" href="../pages/Contactanos.html">Contáctanos</a>
+                         </li>
+                       </ul>
+                     </div>
+                   </div>
+               </nav>
+       </header>
         <main >
             <section class="contactanos">
                 <div class="contactanos__titulo">
@@ -66,22 +82,24 @@
             
             
         </main>
-        <footer class="pie">
-            <div class="pie__superior">
-                <a href="../index.html"><img class="pie__superior-logo" src="../assets/imagenes/ha logo gris.png" alt="logo"></a>
-                 <article>
-                    <img class="pie__superior-ws" src="../assets/imagenes/ws gris.png"  alt="what's app">
-                    <p class="pie__superior-ws--texto">+569 5229 4334</p>
-                </article>
-                <article>
-                    <P class="pie__superior-redes--texto" >SIGUENOS:</P>
-                    <a href="https://www.facebook.com/helados.aqui" target="_blank"><img class="pie__superior-redes" src="../assets/imagenes/fb gris.png"  alt="facebook"></a>
-                    <a href="https://www.instagram.com/helados_aqui/?hl=es" target="_blank"><img class="pie__superior-redes" src="../assets/imagenes/insta gris.png"  alt="instagram"></a>
-                </article>
+        <footer class="mt-5">
+            <div class="bg-dark d-flex justify-content-evenly align-items-center"> 
+                 <a href="../index.html"><img class="pie__superior-logo" src="../assets/imagenes/ha logo gris.png" alt="logo"></a>
+                 <article class=" justify-content-evenly">
+                     <i class="bi bi-whatsapp text-secondary ms-5"></i>
+                     <p class="text-secondary mt-1 mb-0">+569 5229 4334</p>
+                 </article>
+                 <article >
+                     <P class="text-secondary mb-0 " >SIGUENOS:</P>
+                     <a href="https://www.facebook.com/helados.aqui" target="_blank"><i class="bi bi-facebook text-secondary me-2"></i></a>
+                     <a href="https://www.instagram.com/helados_aqui/?hl=es" target="_blank"><i class="bi bi-instagram text-secondary"></i></a>
+                 </article>
             </div>
-            <div class="pie__inferior">
-                <p>RICOS HELADOS HECHOS CON <span> &hearts; </span> EN PUNTA ARENAS</p>
-                <small>COPY RIGHTS, TODOS LOS DERECHOS RESERVADOS</small>
+             <div class="bg-info pie__inferior" >
+                 <div class="container">
+                     <p class="mb-0">RICOS HELADOS HECHOS CON <span> &hearts; </span> EN PUNTA ARENAS</p>
+                     <small>COPY RIGHTS, TODOS LOS DERECHOS RESERVADOS</small>
+                 </div>
             </div>
         </footer>
     </body>
