@@ -1,260 +1,408 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../assets/favion/Ha Logo favicon.ico" type="image/x-icon">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Helados Aquí</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Permanent+Marker&display=swap" rel="stylesheet" />
+        <link rel="shortcut icon" href="./assets/favion/Ha Logo favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
 <body>
-    <section class="encabezado">
-        <header>
-            <a href="../index.html"><img src="../assets/imagenes/logo ha png.png" width="80px" class="logo" alt="logo ha"></a>
-            <div class="header__derecho">
-                <nav>
-                    <ul class="menu">
-                        <li><a href="../index.html" class="active">Inicio</a></li>
-                        <li><a href="Productos.html" class="menu__boton">Productos</a></li>
-                        <li><a href="Quienes Somos.html" class="menu__boton">Quienes Somos</a></li>
-                        <li><a href="Encuentranos.html" class="menu__boton">Encuentranos</a></li>
-                        <li><a href="Contactanos.html" class="menu__boton">Contáctanos</a></li>
-                    </ul>
-                </nav>
-                <span class="menu__phono">MENÚ</span>
-            </div>
-        </header>
-    </section>
+    <header>
+        <nav class="navbar navbar-expand-lg encabezado">
+               <div class="container">
+                 <a class="navbar-brand" href="#"><img src="../assets/imagenes/logo ha png.png" width="80px" alt="logo helados aqui png"></a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarNav">
+                   <ul class="navbar-nav ms-auto">
+                     <li class="nav-item">
+                       <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                     </li>
+                     <li class="nav-item ms-4">
+                       <a class="nav-link active " href="./Productos.html">Productos</a>
+                     </li>
+                     <li class="nav-item ms-4">
+                       <a class="nav-link" href="../pages/Quienes Somos.html">Quiénes Somos</a>
+                     </li>
+                     <li class="nav-item ms-4">
+                       <a class="nav-link" href="../pages/Encuentranos.html">Encuentranos</a>
+                     </li>
+                     <li class="nav-item ms-4">
+                       <a class="nav-link" href="../pages/Contactanos.html">Contáctanos</a>
+                     </li>
+                   </ul>
+                 </div>
+               </div>
+           </nav>
+   </header>
     <main class="productos">
-        <h2 class="productos__titulo">Productos</h2>
-        <section class="productos__tarjetas">
-            <h4 class="productos__tarjetas--titulo">Barquillos</h4>
-            <div class="productos__barquillos">
-                <article class="productos__contenedor--barquillos">
-                    <img src="../assets/imagenes/barquillo tarjeta.png"  alt="barquillo simple">
-                    <h2 class="productos__contenedor--barquillos-titulo"> Barquillo Simple</h2>
-                    <p class="productos__contenedor--barquillos-descripcion">Barquillo con helado soft de su preferencia.</p>
-                    <h2 class="productos__contenedor--barquillos-precio">$1.000</h2>
-                </article>
-                <article class="productos__contenedor--barquillos">
-                    <img src="../assets/imagenes/barquillo maxi.png"  alt="barquillo maxi">
-                    <h2 class="productos__contenedor--barquillos-titulo"> Barquillo Maxi</h2>
-                    <p class="productos__contenedor--barquillos-descripcion">Barquillo grande con helado soft de su preferencia.</p>
-                    <h2 class="productos__contenedor--barquillos-precio">$1.500</h2>
-                </article>
-                <article class="productos__contenedor--barquillos">
-                    <img src="../assets/imagenes/barquillo super maxi.png"  alt="barquillo super maxi">
-                    <h2 class="productos__contenedor--barquillos-titulo"> Barquillo Super Maxi</h2>
-                    <p class="productos__contenedor--barquillos-descripcion">Barquillo grande con helado soft de su preferencia, salsa y agregados incluidos.</p>
-                    <h2 class="productos__contenedor--barquillos-precio">$2.000</h2>
-                </article>
-                <article class="productos__contenedor--barquillos">
-                    <img src="../assets/imagenes/canastillo.png"  alt="canastillo">
-                    <h2 class="productos__contenedor--barquillos-titulo"> Canastillo</h2>
-                    <p class="productos__contenedor--barquillos-descripcion">Canastillo con helado soft de su preferencia, salsa y agregados incluidos.</p>
-                    <h2 class="productos__contenedor--barquillos-precio">$2.000</h2>
-                </article>
+        <h2 class="productos__titulo mb-5">Productos</h2>
+        <section class="container">
+            <h3 class="productos__titulo mb-5">Barquillos</h3>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 col-xl-3 ">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/barquillo tarjeta.png" class="card-img-top" alt="barquillo Simple"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold "> Barquillo Simple</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Barquillo con helado soft de su preferencia.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$1.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/barquillo maxi.png" class="card-img-top" alt="barquillo maxi"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold "> Barquillo Maxi</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Barquillo grande con helado soft de su preferencia.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$1.500</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/barquillo super maxi.png" class="card-img-top" alt="barquillo super maxi"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold "> Barquillo Super Maxi</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Barquillo grande con helado soft de su preferencia, salsa y agregados incluidos.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$2.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/canastillo.png" class="card-img-top" alt="canastillo"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold "> Canastillo</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Canastillo con helado soft de su preferencia, salsa y agregados incluidos.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$2.000</h2> 
+                    </div>
+                </div>
             </div>
-            <h4 class="productos__tarjetas--titulo">Helados en Vaso</h4>
-            <div class="productos__vasos">
-                <article class="productos__contenedor--vasos">
-                    <img src="../assets/imagenes/vaso pequeño.png"  alt="vaso pequeño">
-                    <h2 class="productos__contenedor--vasos-titulo"> Vaso Pequeño</h2>
-                    <p class="productos__contenedor--vasos-descripcion">Vaso pequeño con helado soft de su preferencia, salsa y agregados incluidos.</p>
-                    <h2 class="productos__contenedor--vasos-precio">$1.700</h2>
-                </article>
-                <article class="productos__contenedor--vasos">
-                    <img src="../assets/imagenes/vaso mediano.png"  alt="vaso mediano">
-                    <h2 class="productos__contenedor--vasos-titulo"> Vaso Mediano</h2>
-                    <p class="productos__contenedor--vasos-descripcion">Vaso mediano con helado soft de su preferencia, salsa y agregados incluidos.</p>
-                    <h2 class="productos__contenedor--vasos-precio">$2.500</h2>
-                </article>
-                <article class="productos__contenedor--vasos">
-                    <img src="../assets/imagenes/vaso grande.png"  alt="vaso grande">
-                    <h2 class="productos__contenedor--vasos-titulo"> Vaso Grande</h2>
-                    <p class="productos__contenedor--vasos-descripcion">Vaso grande con helado soft de su preferencia, salsa y agregados incluidos.</p>
-                    <h2 class="productos__contenedor--vasos-precio">$3.500</h2>
-                </article>
+        </section>
+        <section class="container">
+            <h3 class="productos__titulo mb-5">Helados en Vaso</h3>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/vaso pequeño.png" class="card-img-top" alt="vaso pequeño"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold "> Vaso Pequeño</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Vaso pequeño con helado soft de su preferencia, salsa y agregados incluidos.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$1.700</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/vaso mediano.png" class="card-img-top" alt="vaso mediano"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Vaso Mediano</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Vaso mediano con helado soft de su preferencia, salsa y agregados incluidos.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$2.500</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/vaso grande.png" class="card-img-top" alt="vaso grande"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Vaso Grande</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Vaso grande con helado soft de su preferencia, salsa y agregados incluidos.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$3.500</h2> 
+                    </div>
+                </div>
             </div>
-            <h4 class="productos__tarjetas--titulo">Paletas</h4>
-            <div class="productos__paletas">
-                <article class="productos__contenedor--paletas">
-                    <img src="../assets/imagenes/paleta chocolate.png"  alt="paleta de Chocolate">
-                    <h2 class="productos__contenedor--paletas-titulo"> Paleta de Chocolate</h2>
-                    <p class="productos__contenedor--paletas-descripcion">Paleta de Helado Soft sabor chocolate. Tamaño 9cm por 5cm Aproximadamente.</p>
-                    <h2 class="productos__contenedor--paletas-precio">$600</h2>
-                </article>
-                <article class="productos__contenedor--paletas">
-                    <img src="../assets/imagenes/paleta frutilla 1.png"  alt="paleta de frutilla">
-                    <h2 class="productos__contenedor--paletas-titulo"> Paleta de frutilla</h2>
-                    <p class="productos__contenedor--paletas-descripcion">Paleta de Helado Soft sabor frutilla. Tamaño 9cm por 5cm Aproximadamente.</p>
-                    <h2 class="productos__contenedor--paletas-precio">$600</h2>
-                </article>
-                <article class="productos__contenedor--paletas">
-                    <img src="../assets/imagenes/paleta vainilla.png"  alt="paleta de vainilla">
-                    <h2 class="productos__contenedor--paletas-titulo"> Paleta de Vainilla</h2>
-                    <p class="productos__contenedor--paletas-descripcion">Paleta de Helado Soft sabor Vainilla. Tamaño 9cm por 5cm Aproximadamente.</p>
-                    <h2 class="productos__contenedor--paletas-precio">$600</h2>
-                </article>
-                <article class="productos__contenedor--paletas">
-                    <img src="../assets/imagenes/mini vainilla.png"  alt="paleta mini de vainilla">
-                    <h3 class="productos__contenedor--paletas-titulo"> Paleta  Mini de Vainilla</h3>
-                    <p class="productos__contenedor--paletas-descripcion">Paleta Mini de Helado Soft sabor Vainilla. Tamaño 6cm por 3, 5cm aproximadamente.</p>
-                    <h2 class="productos__contenedor--paletas-precio">$300 </h2>
-                </article>
-                <article class="productos__contenedor--paletas">
-                    <img src="../assets/imagenes/mini chocolate.png"  alt="paleta mini de chocolate">
-                    <h3 class="productos__contenedor--paletas-titulo"> Paleta  Mini de Chocolate</h3>
-                    <p class="productos__contenedor--paletas-descripcion">Paleta Mini de Helado Soft sabor Chocolate. Tamaño 6cm por 3, 5cm aproximadamente.</p>
-                    <h2 class="productos__contenedor--paletas-precio">$300 </h2>
-                </article>
-                <article class="productos__contenedor--paletas">
-                    <img src="../assets/imagenes/mini frutilla.png"  alt="paleta mini de frutilla">
-                    <h3 class="productos__contenedor--paletas-titulo"> Paleta  Mini de Frutilla</h3>
-                    <p class="productos__contenedor--paletas-descripcion">Paleta Mini de Helado Soft sabor Frutilla. Tamaño 6cm por 3, 5cm aproximadamente.</p>
-                    <h2 class="productos__contenedor--paletas-precio">$300 </h2>
-                </article>
+        </section>
+        <section class="container">
+            <h3 class="productos__titulo mb-5">Paletas</h3>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/paleta chocolate.png" class="card-img-top" alt="paleta de Chocolate"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Paleta de Chocolate</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Paleta de Helado Soft sabor chocolate. Tamaño 9cm por 5cm Aproximadamente.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$5.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/paleta frutilla 1.png" class="card-img-top" alt="paleta de frutilla"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Paleta de frutilla</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Paleta de Helado Soft sabor frutilla. Tamaño 9cm por 5cm Aproximadamente.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$600</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/paleta vainilla.png" class="card-img-top" alt="paleta de Vainilla"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Paleta de Vainilla</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Paleta de Helado Soft sabor Vainilla. Tamaño 9cm por 5cm Aproximadamente.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$600</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/mini vainilla.png" class="card-img-top" alt="paleta  Mini de Vainilla"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Paleta Mini de Vainilla</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Paleta Mini de Helado Soft sabor Vainilla. Tamaño 6cm por 3, 5cm aproximadamente.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$300</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/mini chocolate.png" class="card-img-top" alt="paleta  Mini de Chocolate"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Paleta Mini de Chocolate</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Paleta Mini de Helado Soft sabor Chocolate. Tamaño 6cm por 3, 5cm aproximadamente.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$300</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/mini frutilla.png" class="card-img-top" alt="paleta Mini de Frutilla"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Paleta Mini de Frutilla</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Paleta Mini de Helado Soft sabor Frutilla. Tamaño 6cm por 3, 5cm aproximadamente.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$300</h2> 
+                    </div>
+                </div>
             </div>
-            <h4 class="productos__tarjetas--titulo">Cassatas</h4>
-            <div class="productos__cassatas">
-                <article class="productos__contenedor--cassatas">
-                    <img src="../assets/imagenes/cassata chocolate.png"  alt="Cassata de chocolate">
-                    <h3 class="productos__contenedor--cassatas-titulo"> Cassata de Chocolate</h3>
-                    <p class="productos__contenedor--cassatas-descripcion">Cassata de helado soft sabor Chocolate, 1 litro.</p>
-                    <h2 class="productos__contenedor--cassatas-precio">$5.000</h2>
-                </article>
-                <article class="productos__contenedor--cassatas">
-                    <img src="../assets/imagenes/PROXIMAMENTE FOTO.png"  alt="Cassata de vainilla">
-                    <h3 class="productos__contenedor--cassatas-titulo"> Cassata de Vainilla</h3>
-                    <p class="productos__contenedor--cassatas-descripcion">Cassata de helado soft sabor Vainilla, 1 litro.</p>
-                    <h2 class="productos__contenedor--cassatas-precio">$5.000</h2>
-                </article>
-                <article class="productos__contenedor--cassatas">
-                    <img src="../assets/imagenes/cassata frutilla.png"  alt="Cassata de frutilla">
-                    <h3 class="productos__contenedor--cassatas-titulo"> Cassata de Frutilla</h3>
-                    <p class="productos__contenedor--cassatas-descripcion">Cassata de helado soft sabor Frutilla, 1 litro.</p>
-                    <h2 class="productos__contenedor--cassatas-precio">$5.000</h2>
-                </article>
-                <article class="productos__contenedor--cassatas">
-                    <img src="../assets/imagenes/cassata mixta choco-fruti.png"  alt="Cassatas de Mixtas">
-                    <h3 class="productos__contenedor--cassatas-titulo"> Cassatas Mixtas</h3>
-                    <p class="productos__contenedor--cassatas-descripcion">Cassatas de helado soft Mixtas, fruilla-chocolate / frutilla-vainillas / vainilla-frutilla, 1 litro.</p>
-                    <h2 class="productos__contenedor--cassatas-precio">$5.000</h2>
-                </article>
-                <article class="productos__contenedor--cassatas">
-                    <img src="../assets/imagenes/PROXIMAMENTE FOTO.png"  alt="Cassata de Piña">
-                    <h2 class="productos__contenedor--cassatas-titulo"> Cassata de Piña</h2>
-                    <p class="productos__contenedor--cassatas-descripcion">Cassata de helado soft sabor Piña, 1 litro.</p>
-                    <h2 class="productos__contenedor--cassatas-precio">$5.000</h2>
-                </article>
-                <article class="productos__contenedor--cassatas">
-                    <img src="../assets/imagenes/PROXIMAMENTE FOTO.png"  alt="Cassata de Mora">
-                    <h2 class="productos__contenedor--cassatas-titulo"> Cassata de Mora</h2>
-                    <p class="productos__contenedor--cassatas-descripcion">Cassata de helado soft sabor Mora, 1 litro.</p>
-                    <h2 class="productos__contenedor--cassatas-precio">$5.000</h2>
-                </article>
+        </section>
+        <section class="container">
+            <h3 class="productos__titulo mb-5">Cassatas</h3>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/cassata chocolate.png" class="card-img-top" alt="Cassata de Chocolate"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Cassata de Chocolate</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Cassata de helado soft sabor Chocolate, 1 litro.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$5.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/cassata frutilla.png" class="card-img-top" alt="Cassata de frutilla"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Cassata de frutilla</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Cassata de helado soft sabor Frutilla, 1 litro.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$5.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/PROXIMAMENTE FOTO.png" class="card-img-top" alt="Cassata de Vainilla"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Cassata de Vainilla</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Cassata de helado soft sabor Vainilla, 1 litro.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$5.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/cassata mixta choco-fruti.png" class="card-img-top" alt="Cassata Mixta"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Cassata Mixta</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Cassatas de helado soft Mixtas, fruilla-chocolate / frutilla-vainillas / vainilla-frutilla, 1 litro.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$300</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/PROXIMAMENTE FOTO.png" class="card-img-top" alt="Cassata de Piña"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Cassata de Piña</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Cassata de helado soft sabor Piña, 1 litro.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$5.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/PROXIMAMENTE FOTO.png" class="card-img-top" alt="Cassata de Mora"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Cassata de Mora</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Cassata de helado soft sabor Mora, 1 litro.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$5.000</h2> 
+                    </div>
+                </div>
             </div>
-            <h4 class="productos__tarjetas--titulo">Tortas</h4>
-            <div class="productos__tortas">
-                <article class="productos__contenedor--tortas">
-                    <img src="../assets/imagenes/torta 3 lehces.png"  alt="torta 3 Leches">
-                    <h2 class="productos__contenedor--tortas-titulo"> Torta 3 Leches</h2>
-                    <p class="productos__contenedor--tortas-descripcion">Bizcocho bañado con tres tipos de leche, Acompañado con merengue suizo y canela espolvoreada.</p>
-                    <h2 class="productos__contenedor--tortas-precio">$2.500</h2>
-                </article>
-                <article class="productos__contenedor--tortas">
-                    <img src="../assets/imagenes/PROXIMAMENTE FOTO.png"  alt="torta de chocolate">
-                    <h2 class="productos__contenedor--tortas-titulo"> Torta de Chocolate</h2>
-                    <p class="productos__contenedor--tortas-descripcion">Bizcocho humedo con sabor a chocolate y con crema pastelera</p>
-                    <h2 class="productos__contenedor--tortas-precio">$2.500</h2>
-                </article>
-                <article class="productos__contenedor--tortas">
-                    <img src="../assets/imagenes/PROXIMAMENTE FOTO.png"  alt="torta de frutilla">
-                    <h2 class="productos__contenedor--tortas-titulo"> Torta de Frutilla</h2>
-                    <p class="productos__contenedor--tortas-descripcion">Bizcocho humedo con sabor a Frutilla y con crema pastelera</p>
-                    <h2 class="productos__contenedor--tortas-precio">$2.500</h2>
-                </article>
+        </section>
+        <section class="container">
+            <h3 class="productos__titulo mb-5">Tortas</h3>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/torta 3 lehces.png" class="card-img-top" alt="Torta 3 Leches"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Torta 3 Leches</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Bizcocho bañado con tres tipos de leche, Acompañado con merengue suizo y canela espolvoreada.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$2.500</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/PROXIMAMENTE FOTO.png" class="card-img-top" alt="Torta de Chocolate"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Torta de Chocolate</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Bizcocho humedo con sabor a chocolate y con crema pastelera.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$2.500</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/PROXIMAMENTE FOTO.png" class="card-img-top" alt="Torta de Frutilla"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Torta de Frutilla</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Bizcocho humedo con sabor a Frutilla y con crema pastelera</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$2.500</h2> 
+                    </div>
+                </div>
             </div>
-            <h4 class="productos__tarjetas--titulo">Bebidas</h4>
-            <div class="productos__bebidas">
-                <article class="productos__contenedor--bebidas">
-                    <img src="../assets/imagenes/bebidas varias.png"  alt="bebidas de lata">
-                    <h2 class="productos__contenedor--bebidas-titulo"> Bebidas de Lata</h2>
-                    <p class="productos__contenedor--bebidas-descripcion">Bebidas de lata de 350ml de distintos sabores.</p>
-                    <h2 class="productos__contenedor--bebidas-precio">$1.000</h2>
-                </article>
-                <article class="productos__contenedor--bebidas">
-                    <img src="../assets/imagenes/bebidas 1.5 lt.png"  alt="bebidas de 1.5 lt">
-                    <h2 class="productos__contenedor--bebidas-titulo"> Bebidas de 1.5 lt</h2>
-                    <p class="productos__contenedor--bebidas-descripcion">Bebidas de 1.5 lt de distintos sabores.</p>
-                    <h2 class="productos__contenedor--bebidas-precio">$2.000</h2>
-                </article>
-                <article class="productos__contenedor--bebidas">
-                    <img src="../assets/imagenes/agua 500ml.png"  alt="Agua de 500 ml">
-                    <h2 class="productos__contenedor--bebidas-titulo"> Agua de 500 ml</h2>
-                    <p class="productos__contenedor--bebidas-descripcion">Agua de 500 ml.</p>
-                    <h2 class="productos__contenedor--bebidas-precio">$800</h2>
-                </article>
-                <article class="productos__contenedor--bebidas">
-                    <img src="../assets/imagenes/bebidas energeticas.png"  alt="beidas Energeticas">
-                    <h2 class="productos__contenedor--bebidas-titulo"> Bebidas Energéticas</h2>
-                    <p class="productos__contenedor--bebidas-descripcion">Bebidas Energeticas de distintas marcas.</p>
-                    <h2 class="productos__contenedor--bebidas-precio">$3.000</h2>
-                </article>
+        </section>
+        <section class="container">
+            <h3 class="productos__titulo mb-5">Bebidas</h3>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/bebidas varias.png" class="card-img-top" alt="Bebidas de Lata"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Bebidas de Lata</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Bebidas de lata de 350ml de distintos sabores.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$1.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/bebidas 1.5 lt.png" class="card-img-top" alt="Bebidas de 1.5 lt"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Bebidas de 1.5 lt</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Bebidas de 1.5 lt de distintos sabores.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$2.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/agua 500ml.png" class="card-img-top" alt="Agua de 500 ml"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Agua de 500 ml</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Agua de 500 ml</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$800</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/bebidas energeticas.png" class="card-img-top" alt="Bebidas Energéticas"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold">Bebidas Energéticas</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Bebidas Energeticas de distintas marcas.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$3.000</h2> 
+                    </div>
+                </div>
             </div>
-            <h4 class="productos__tarjetas--titulo">Granizados</h4>
-            <div class="productos__granizados">
-                <article class="productos__contenedor--granizados">
-                    <img src="../assets/imagenes/granizado limon.png"  alt="granizados de limon">
-                    <h3 class="productos__contenedor--granizados-titulo"> Granizado de Limón</h3>
-                    <p class="productos__contenedor--granizados-descripcion">Granizado sabor Limón en vaso de 12oz</p>
-                    <h2 class="productos__contenedor--granizados-precio">$2.000</h2>
-                </article> 
-                <article class="productos__contenedor--granizados">
-                    <img src="../assets/imagenes/granizado piña.png"  alt="granizados de piña">
-                    <h3 class="productos__contenedor--granizados-titulo"> Granizado de Piña</h3>
-                    <p class="productos__contenedor--granizados-descripcion">Granizado sabor Piña en vaso de 12oz</p>
-                    <h2 class="productos__contenedor--granizados-precio">$2.000</h2>
-                </article> 
-                <article class="productos__contenedor--granizados">
-                    <img src="../assets/imagenes/granizado naranja.png"  alt="granizados de naranja">
-                    <h3 class="productos__contenedor--granizados-titulo"> Granizado de Naranja</h3>
-                    <p class="productos__contenedor--granizados-descripcion">Granizado sabor Naranja en vaso de 12oz</p>
-                    <h2 class="productos__contenedor--granizados-precio">$2.000</h2>
-                </article> 
-                <article class="productos__contenedor--granizados">
-                    <img src="../assets/imagenes/granizado mora.png"  alt="granizados de cereza">
-                    <h3 class="productos__contenedor--granizados-titulo"> Granizado de Cereza</h3>
-                    <p class="productos__contenedor--granizados-descripcion">Granizado sabor Cereza en vaso de 12oz</p>
-                    <h2 class="productos__contenedor--granizados-precio">$2.000</h2>
-                </article> 
-            </div>            
-        </section>   
+        </section>
+        <section class="container">
+            <h3 class="productos__titulo mb-5">Granizados</h3>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/granizado limon.png" class="card-img-top" alt="Granizado de Limón"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Granizado de Limón</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Granizado sabor Limón en vaso de 12oz.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$2.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/granizado mora.png" class="card-img-top" alt="Granizado de Cereza"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Granizado de Cereza</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Granizado sabor Cereza en vaso de 12oz.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$2.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/granizado naranja.png" class="card-img-top" alt="Granizado de Naranja"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Granizado de Naranja</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Granizado sabor Naranja en vaso de 12oz.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$2.000</h2> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 productos__transform">
+                        <a href="./"><img src="../assets/imagenes/granizado piña.png" class="card-img-top" alt="Granizado de Piña"></a>
+                        <div class="card-body pb-0 ">
+                            <h2 class="justify-content-center d-flex fw-bold ">Granizado de Piña</h2>
+                            <p class="text-center mb-0 text-muted fs-3">Granizado sabor Piña en vaso de 12oz.</p>
+                        </div>
+                        <h2 class="text-center fs-1 productos__precio mb-0">$2.000</h2> 
+                    </div>
+                </div>
+            </div>
+        </section>
         <div class="arriba">
-            <a href="../pages/Productos.html"><span>↑</span></a>
-        </div>     
+            <a href="../pages/Productos.html"><i class="bi bi-arrow-up-circle-fill"></i></a>
+        </div> 
     </main>
-    <footer class="pie">
-        <div class="pie__superior">
-            <a href="../index.html"><img class="pie__superior-logo" src="../assets/imagenes/ha logo gris.png" alt="logo"></a>
-             <article>
-                <img class="pie__superior-ws" src="../assets/imagenes/ws gris.png"  alt="what's app">
-                <p class="pie__superior-ws--texto">+569 5229 4334</p>
-            </article>
-            <article>
-                <P class="pie__superior-redes--texto" >SIGUENOS:</P>
-                <a href="https://www.facebook.com/helados.aqui" target="_blank"><img class="pie__superior-redes" src="../assets/imagenes/fb gris.png"  alt="facebook"></a>
-                <a href="https://www.instagram.com/helados_aqui/?hl=es" target="_blank"><img class="pie__superior-redes" src="../assets/imagenes/insta gris.png"  alt="instagram"></a>
-            </article>
+    <footer class="mt-5">
+        <div class="bg-dark d-flex justify-content-evenly align-items-center"> 
+             <a href="../index.html"><img class="pie__superior-logo" src="../assets/imagenes/ha logo gris.png" alt="logo"></a>
+             <article class=" justify-content-evenly">
+                 <i class="bi bi-whatsapp text-secondary ms-5"></i>
+                 <p class="text-secondary mt-1 mb-0">+569 5229 4334</p>
+             </article>
+             <article >
+                 <P class="text-secondary mb-0 " >SIGUENOS:</P>
+                 <a href="https://www.facebook.com/helados.aqui" target="_blank"><i class="bi bi-facebook text-secondary me-2"></i></a>
+                 <a href="https://www.instagram.com/helados_aqui/?hl=es" target="_blank"><i class="bi bi-instagram text-secondary"></i></a>
+             </article>
         </div>
-        <div class="pie__inferior">
-            <p>RICOS HELADOS HECHOS CON <span> &hearts; </span> EN PUNTA ARENAS</p>
-            <small>COPY RIGHTS, TODOS LOS DERECHOS RESERVADOS</small>
+         <div class="bg-info pie__inferior" >
+             <div class="container">
+                 <p class="mb-0">RICOS HELADOS HECHOS CON <span> &hearts; </span> EN PUNTA ARENAS</p>
+                 <small>COPY RIGHTS, TODOS LOS DERECHOS RESERVADOS</small>
+             </div>
         </div>
-    </footer>
+     </footer>
 </body>
 </html>

@@ -25,45 +25,6 @@ body {
     font-size: 1.4rem;
 }
 
-/*
-header {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-    align-items: center;
-    max-width: 1340px;
-    margin: auto;
-}
-
-.logo {
-    align-items: center;
-}
-
-.menu {
-    list-style: none;
-    display: flex;
-    font-size: 1.2rem;
-    gap: 4rem;
-    font-family: 'Permanent Marker', cursive;
-}
-.menu a {
-    text-decoration: none;
-    color: white;
-}
-.menu__phono {
-    display: none;
-}
-
-.menu a:hover {
-    color: darkred;
-    border: solid white;
-    background-color: white;
-    border-radius: 1rem;
-    padding: .5rem;
-}
-
-*/
 /* -----------------------------------------------------------------------------------Estilos para el footer------------------------------------------------------------------------------*/
 
 
@@ -103,12 +64,10 @@ header {
 }
 
 .arriba {
-    
     position: absolute;
      right: 1rem;
      bottom: 1rem;
      position: fixed;
- 
  }
  
 
@@ -116,10 +75,6 @@ header {
      text-decoration: none;
      color: darkred;  
  }
-
- 
- 
- 
 
 
 @keyframes cardcambiocolor {
@@ -401,6 +356,19 @@ header {
 
 /*---------------------------------------------------------------------------- PAGINA DE PRODUCTOS BODY---------------------------------------------------------------------------------*/
 
+.productos__precio {
+    background-color: darkred;
+    padding: 2rem 0;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.productos__transform:hover {
+    transform: scale(1.1);   
+}
+
+
 .productos__titulo {
     font-family: 'Permanent Marker', cursive;
     letter-spacing: 10px;
@@ -415,391 +383,13 @@ header {
 
 
 
-.productos__tarjetas--titulo {
-    font-family: 'Permanent Marker', cursive;
-    letter-spacing: 10px;
-    text-align: center;
-    padding: 2rem;
-}
 
-/* BARQUILLOS*/
 
-.productos__barquillos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
 
-}
 
-.productos__contenedor--barquillos {
-    width: 300px;
-    height: 470px;
-    border: solid darkred;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr 1fr 1fr 1fr;
-    margin-bottom: 2rem;
-    
-    
-}
 
-.productos__contenedor--barquillos img {
-    width: 250px;
-    align-self: center;
-    justify-self: center;
-    
-}
 
-.productos__contenedor--barquillos-titulo {
-    text-align: center;
-    align-self: center;
-    font-size: 2.5rem;
-    
 
-}
-
-.productos__contenedor--barquillos-descripcion {
-    color: grey;
-    text-align: center;
-    font-size: 1.3rem;
-    
-
-}
-
-.productos__contenedor--barquillos-precio {
-    background-color: darkred;
-    color: white;
-    text-align: center;
-    letter-spacing: 3px;
-    padding: 10px;
-    
-
-}
-
-.productos__contenedor--barquillos:hover {
-    transform: scale(1.1222);   
-}
-
-
-/* HELADOS EN VASO*/
-
-.productos__vasos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-
-}
-.productos__contenedor--vasos  {
-    width: 300px;
-    height: 470px;
-    border: solid darkred;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr 1fr 1fr 1fr;
-    margin-bottom: 2rem;
-    
-}
-
-.productos__contenedor--vasos  img {
-    width: 250px;
-    align-self: center;
-    justify-self: center;
-    
-}
-
-.productos__contenedor--vasos-titulo {
-    text-align: center;
-    align-self: center;
-
-}
-
-.productos__contenedor--vasos-descripcion {
-    color: grey;
-    text-align: center;
-    font-size: 1.3rem;
-    
-
-}
-
-.productos__contenedor--vasos-precio {
-    background-color: darkred;
-    color: white;
-    text-align: center;
-    letter-spacing: 3px;
-    padding: 10px;
-
-}
-
-.productos__contenedor--vasos:hover {
-    transform: scale(1.1222);   
-}
-    
-/* PALETAS*/
-
-.productos__paletas{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-
-}
-.productos__contenedor--paletas {
-    width: 300px;
-    height: 470px;
-    border: solid darkred;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr 1fr 1fr 1fr;
-    margin-bottom: 2rem;
-    
-}
-
-.productos__contenedor--paletas img {
-    width: 250px;
-    align-self: center;
-    justify-self: center;
-    
-}
-
-.productos__contenedor--paletas-titulo {
-    text-align: center;
-    align-self: center;
-
-}
-
-.productos__contenedor--paletas-descripcion {
-    color: grey;
-    text-align: center;
-    font-size: 1.3rem;
-    padding: 5px;
-    
-}
-
-.productos__contenedor--paletas-precio {
-    background-color: darkred;
-    color: white;
-    text-align: center;
-    letter-spacing: 3px;
-    padding: 10px;
-}
-
-.productos__contenedor--paletas:hover {
-    transform: scale(1.1222);   
-}
-/* CASSATAS*/
-
-.productos__cassatas{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-
-}
-.productos__contenedor--cassatas {
-    width: 300px;
-    height: 470px;
-    border: solid darkred;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr 1fr 1fr 1fr;
-    margin-bottom: 2rem;
-    
-}
-
-.productos__contenedor--cassatas img {
-    width: 250px;
-    align-self: center;
-    justify-self: center;
-    
-}
-
-.productos__contenedor--cassatas-titulo {
-    text-align: center;
-    align-self: center;
-
-}
-
-.productos__contenedor--cassatas-descripcion {
-    color: grey;
-    text-align: center;
-    font-size: 1.3rem;
-    padding: 5px;
-    
-}
-
-.productos__contenedor--cassatas-precio {
-    background-color: darkred;
-    color: white;
-    text-align: center;
-    letter-spacing: 3px;
-    padding: 10px;
-}
-
-.productos__contenedor--cassatas:hover {
-    transform: scale(1.1222);   
-}
-/* TORTAS*/
-
-.productos__tortas{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-
-}
-.productos__contenedor--tortas {
-    width: 300px;
-    height: 470px;
-    border: solid darkred;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr 1fr 1fr 1fr;
-    margin-bottom: 2rem;
-    
-}
-
-.productos__contenedor--tortas img {
-    width: 250px;
-    align-self: center;
-    justify-self: center;
-    
-}
-
-.productos__contenedor--tortas-titulo {
-    text-align: center;
-    align-self: center;
-
-}
-
-.productos__contenedor--tortas-descripcion {
-    color: grey;
-    text-align: center;
-    font-size: 1.3rem;
-    padding: 5px;
-    
-}
-
-.productos__contenedor--tortas-precio {
-    background-color: darkred;
-    color: white;
-    text-align: center;
-    letter-spacing: 3px;
-    padding: 10px;
-    overflow: hidden;
-}
-
-.productos__contenedor--tortas:hover {
-    transform: scale(1.1222);   
-}
-/* BEBIDAS*/
-
-.productos__bebidas{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-
-}
-.productos__contenedor--bebidas {
-    width: 300px;
-    height: 470px;
-    border: solid darkred;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr 1fr 1fr 1fr;
-    margin-bottom: 2rem;
-    
-}
-
-.productos__contenedor--bebidas img {
-    width: 250px;
-    align-self: center;
-    justify-self: center;
-    
-}
-
-.productos__contenedor--bebidas-titulo {
-    text-align: center;
-    align-self: center;
-
-}
-
-.productos__contenedor--bebidas-descripcion {
-    color: grey;
-    text-align: center;
-    font-size: 1.3rem;
-    padding: 5px;
-    
-}
-
-.productos__contenedor--bebidas-precio {
-    background-color: darkred;
-    color: white;
-    text-align: center;
-    letter-spacing: 3px;
-    padding: 10px;
-    overflow: hidden;
-
-}
-
-.productos__contenedor--bebidas:hover {
-    transform: scale(1.1222);   
-}
-
-/* GRANIZADOS*/
-
-.productos__granizados{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-
-}
-.productos__contenedor--granizados {
-    width: 300px;
-    height: 470px;
-    border: solid darkred;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr 1fr 1fr 1fr;
-    margin-bottom: 2rem;
-    
-}
-
-.productos__contenedor--granizados img {
-    width: 250px;
-    align-self: center;
-    justify-self: center;
-    
-}
-
-.productos__contenedor--granizados-titulo {
-    text-align: center;
-    align-self: center;
-
-}
-
-.productos__contenedor--granizados-descripcion {
-    color: grey;
-    text-align: center;
-    font-size: 1.3rem;
-    padding: 5px;
-    
-}
-
-.productos__contenedor--granizados-precio {
-    background-color: darkred;
-    color: white;
-    text-align: center;
-    letter-spacing: 3px;
-    padding: 10px;
-}
-
-.productos__contenedor--granizados:hover {
-    transform: scale(1.1222);   
-}
 /*---------MEDIAS MOBIBLE LAST---------*/
 /*-------------------------MEDIAS QUERIES - PANTALLA HASTA 1340PX------------------------*/
 
