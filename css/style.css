@@ -97,127 +97,29 @@ header {
 
 /* ---------------------------------------------------------Estilos para el main de la pagina index------------------------------------------------------------------------*/
 
-main {
-    margin: auto;
-    max-width: 1340px;
-}
-.photoslider {
-    width: 100%;
-}
-.contenido p {
-padding: 2rem;
-}
-
-.contenido__titulo {
+.index__titulo {
     font-family: 'Permanent Marker', cursive;
     letter-spacing: 10px;
-    text-align: center;
-    padding: 2rem;
 }
 
-.contenido {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-items: center;
-    padding-bottom: 2rem;
-    gap: 3rem;
-}
-
-
-.contenido__card--barquillo {
-    width: 350px;
-    height: 320px;
-    border: solid darkred;
-    position: relative;
-    background-image: url(../assets/imagenes/3\ barquillos.jpg);
-    background-size: 350px, 220px;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-.contenido__card--vasos {
-    width: 350px;
-    height: 320px;
-    border: solid darkred;
-    position: relative;
-    background-image: url(../assets/imagenes/helado\ de\ vaso.jpg);
-    background-size: 350px, 220px;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-.contenido__card--paletas {
-    width: 350px;
-    height: 320px;
-    border: solid darkred;
-    position: relative;
-    background-image: url(../assets/imagenes/paletas\ portada.jpg);
-    background-size: 350px, 220px;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-.contenido__card--cassatas {
-    width: 350px;
-    height: 320px;
-    border: solid darkred;
-    position: relative;
-    background-image: url(../assets/imagenes/cassatas.jpeg);
-    background-size: 350px, 220px;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-.contenido__card--tortas {
-    width: 350px;
-    height: 320px;
-    border: solid darkred;
-    position: relative;
-    background-image: url(../assets/imagenes/torta\ index.jpg);
-    background-size: 350px, 220px;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-.contenido__card--bebidas {
-    width: 350px;
-    height: 320px;
-    border: solid darkred;
-    position: relative;
-    background-image: url(../assets/imagenes/bebidas.jpg);
-    background-size: 350px, 220px;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-.contenido__card--granizados {
-    width: 350px;
-    height: 320px;
-    border: solid darkred;
-    position: relative;
-    background-image: url(../assets/imagenes/granizados\ index.jpg);
-    background-size: 350px, 220px;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    position: relative;
+.arriba {
     
-}
-
-.contenido__card--generico {
-    width: 300px;
-    height: 100px;
-    justify-content: center;
-    background-color:white;
     position: absolute;
-    left: 6%;
-    bottom: 0;
-    justify-items: center;
-    border-radius: 5px;
-}
-.contenido__card--generico p  {
-    font-size: 1rem;
-    text-align: center;
-    padding: 0;
-}
-.contenido__card--generico h5 {
-    text-align: center;
-    letter-spacing: 5px;
-}
+     right: 1rem;
+     bottom: 1rem;
+     position: fixed;
+ 
+ }
+ 
+
+ .arriba a {
+     text-decoration: none;
+     color: darkred;  
+ }
+
+ 
+ 
+ 
 
 
 @keyframes cardcambiocolor {
@@ -270,7 +172,6 @@ padding: 2rem;
     animation-delay: 19s;
 }
 
-  
 
 
 /*----------------------------------------------------------- PAGINA DE QUIENES SOMOS BODY----------------------------------------------------------------------------------*/
@@ -512,36 +413,7 @@ padding: 2rem;
     position: relative;
 }
 
-.arriba {
-    background-color: darkred;
-    color: white;
-   width: 60px;
-   height: 60px;
-   font-size: 2.5rem;
-   border-radius: 50%;
-   overflow: hidden;
-   position: absolute;
-    right: 1rem;
-    bottom: 1rem;
-    position: fixed;
-    border: solid white;
-}
 
-.arriba span {
-    display: grid;
-    justify-content: center;
-    align-self: center;
-}
-
-.arriba a {
-    text-decoration: none;
-    color: white;
-}
-
-.arriba:hover {
-    
-background-color: black;
-}
 
 .productos__tarjetas--titulo {
     font-family: 'Permanent Marker', cursive;

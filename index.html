@@ -45,58 +45,102 @@
             </nav>
     </header>
     <main>
-            <!--En esta sección colocaré un photo slider una vez que aprenda como hacerlo, por el momento sólo se monstrará una foto única.-->
-        <img class="photoslider" src="./assets/imagenes/barquillos.jpg" alt="photos slider" />
-        <h4 class="contenido__titulo">Productos</h4>
-        <section class="contenido">
-            <article class="contenido__card--barquillo">
-                <div class="contenido__card--generico generico1">
-                    <h5>Barquillos</h5>
-                    <p>Gran variedad de conos acompañados de helados soft, salsas y agregados.</p>
+        <section class="container mb-5 ">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/imagenes/barquillos.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/imagenes/barquillos.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/imagenes/barquillos.jpg" class="d-block w-100" alt="...">
+                  </div>
                 </div>
-            </article>
-            <article class="contenido__card--vasos">
-                <div class="contenido__card--generico generico2">
-                    <h5>Helados en Vasos</h5>
-                    <p>Diferentes tamaños de vasos rellenos de helado soft, acompañados de salsas y agregados a su gusto.</p>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="container">
+            <h2 class="text-center p-4 index__titulo">Productos</h2>
+            <div class="row g-5">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100">
+                        <a href="./"><img src="./assets/imagenes/3 barquillos.jpg" class="card-img-top" alt="barquillos"></a>
+                        <div class="card-body generico1">
+                            <h2 class="justify-content-center d-flex fw-bold"> Barquillos</h2>
+                            <p class="text-center">Gran variedad de conos acompañados de helados soft, salsas y agregados.</p>
+                        </div>
+                    </div>
                 </div>
-            </article>
-            <article class="contenido__card--paletas">
-                <div class="contenido__card--generico generico3">
-                    <h5>Paletas</h5>
-                    <p>Paletas cremosas de helado soft de distintos sabores.</p>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100">
+                        <img src="./assets/imagenes/helado de vaso.jpg" class="card-img-top" alt="helados soft de vaso">
+                        <div class="card-body generico2">
+                            <h2 class="justify-content-center d-flex fw-bold">Helados en Vasos</h2>
+                            <p class="text-center ">Diferentes tamaños de vasos rellenos de helado soft, acompañados de salsas y agregados a su gusto.</p>
+                        </div>
+                    </div>
                 </div>
-            </article>
-            <article class="contenido__card--cassatas">
-                <div class="contenido__card--generico generico4">
-                    <h5>Cassatas</h5>
-                    <p>Cassatas de 1 litro de helado soft de tus sabores favoritos.</p>
+                <div class="col-md-4 col-sm-6 ">
+                    <div class="card h-100">
+                        <img src="./assets/imagenes/paletas portada.jpg" class="card-img-top" alt="paletas">
+                        <div class="card-body generico3">
+                            <h2 class="justify-content-center d-flex fw-bold">Paletas</h2>
+                            <p class="text-center">Paletas cremosas de helado soft de distintos sabores.</p>
+                        </div>
+                    </div>
                 </div>
-            </article>
-            <article class="contenido__card--tortas">
-                <div class="contenido__card--generico generico5">
-                    <h5>Tortas</h5>
-                    <p>Deleita tu paladar con nuestras ricas tortas.</p>
+                <div class="col-md-4 col-sm-6 ">
+                    <div class="card h-100">
+                        <img src="./assets/imagenes/cassatas.jpeg" class="card-img-top" alt="Cassatas">
+                        <div class="card-body generico4">
+                            <h2 class="justify-content-center d-flex fw-bold">Cassatas</h2>
+                            <p class="text-center">Cassatas de 1 litro de helado soft de tus sabores favoritos.</p>
+                        </div>
+                    </div>
                 </div>
-            </article>
-            <article class="contenido__card--bebidas">
-                <div class="contenido__card--generico generico6">
-                    <h5>Bebidas</h5>
-                    <p>Resfrescate con nuestra variedad de bebidas, jugos, agua y mucho más.</p>
+                <div class="col-md-4 col-sm-6 ">
+                    <div class="card h-100">
+                        <img src="./assets/imagenes/torta index.jpg" class="card-img-top" alt="Tortas">
+                        <div class="card-body generico5">
+                            <h2 class="justify-content-center d-flex fw-bold">Tortas</h2>
+                            <p class="text-center">Deleita tu paladar con nuestras ricas tortas.</p>
+                        </div>
+                    </div>
                 </div>
-            </article>
-            <article class="contenido__card--granizados">
-                <div class="contenido__card--generico generico7">
-                    <h5>Granizados</h5>
-                    <p>Ricos granizados con variedad de sabores.</p>
+                <div class="col-md-4 col-sm-6 ">
+                    <div class="card h-100">
+                        <img src="./assets/imagenes/bebidas.jpg" class="card-img-top" alt="Bebidas">
+                        <div class="card-body generico6">
+                            <h2 class="justify-content-center d-flex fw-bold">Bebidas</h2>
+                            <p class="text-center">Resfrescate con nuestra variedad de bebidas, jugos, agua y mucho más.</p>
+                        </div>
+                    </div>
                 </div>
-            </article>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100">
+                        <img src="./assets/imagenes/granizados index.jpg" class="card-img-top" alt="granizados">
+                        <div class="card-body generico7">
+                            <h2 class="justify-content-center d-flex fw-bold">Granizados</h2>
+                            <p class="text-center">Ricos granizados con variedad de sabores.</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
         </section>
         <div class="arriba">
             <a href="./index.html"><i class="bi bi-arrow-up-circle-fill"></i></a>
         </div>  
     </main>   
-    <footer>
+    <footer class="mt-5">
        <div class="bg-dark d-flex justify-content-evenly align-items-center"> 
             <a href="./index.html"><img class="pie__superior-logo" src="./assets/imagenes/ha logo gris.png" alt="logo"></a>
             <article class=" justify-content-evenly">
