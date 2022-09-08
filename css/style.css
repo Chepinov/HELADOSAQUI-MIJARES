@@ -289,7 +289,7 @@ body {
 
 /*---------MEDIAS MOBIBLE LAST---------*/
 /*-------------------------MEDIAS QUERIES - PANTALLA HASTA 1340PX------------------------*/
-
+/* 
 @media screen and (max-width: 1340px) {
 
     .productos__barquillos {
@@ -368,13 +368,13 @@ body {
 }
 
 
-}
+
 
 /*-------------------------MEDIAS QUERIES - PANTALLA HASTA 1000PX------------------------*/
 
 @media screen and (max-width: 1000px) {
 
-        /* HEADER*/
+        HEADER
 
     .logo {
         margin-right: 2rem;
@@ -566,7 +566,7 @@ body {
         letter-spacing: 3px;
     }
     
-}
+} */
 
 /*-------------------------MEDIAS QUERIES - PANTALLA HASTA 650PX------------------------*/
 @media screen and (max-width: 650px) {
@@ -983,11 +983,11 @@ body {
     }
     
     .productos__contenedor--barquillos-precio {
-        font-size: 2rem;  
+        font-size: 2rem;   
     }
         /*---VASOS---*/
 
-    .productos__vasos {
+     .productos__vasos {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
@@ -1015,9 +1015,10 @@ body {
     
     .productos__contenedor--vasos-precio {
         font-size: 2rem;  
-    }
+    } 
    
         /* --PALETAS--*/
+
 
     .productos__paletas{
          display: grid;
@@ -1082,7 +1083,7 @@ body {
 
         /*TORTAS*/
 
-    .productos__tortas{
+     .productos__tortas{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
@@ -1109,11 +1110,11 @@ body {
     
     .productos__contenedor--tortas-precio {
         font-size: 2rem;  
-    }
+    } 
 
         /*BEBIDAS*/
 
-    .productos__bebidas{
+     .productos__bebidas{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
@@ -1144,6 +1145,7 @@ body {
     }
 
         /*GRANIZADOS*/
+
     .productos__granizados{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1172,10 +1174,10 @@ body {
     
     .productos__contenedor--granizados-precio {
         font-size: 2rem;  
-    }
+    } 
 
           /* header*/
-    .logo {
+     .logo {
         align-items: center;
         width: 60px;
     }
@@ -1197,34 +1199,17 @@ body {
         margin: 2rem;
         font-size: 2.2rem;
         margin-bottom: .7rem;
-    }
+    } 
     /*footer*/
 
-    
-    .pie__superior {
-        height: 75px;
-    }
-    
-    .pie__superior-redes {
-        width: 30px;
-        height: 30px;
-    }
-    .pie__superior-ws {
-        width: 40px;
-        height: 40px;
-        translate: 30px;
-    }
-    .pie__superior-logo {
-        width: 50px;
-        height: 50px;
-    
-    }
+
     .pie__superior-ws--texto {
         font-size: 20px;
     }
     .pie__superior-redes--texto {
         font-size: 20px;
         margin-left: 10px;
+        
         
     }
     
@@ -1237,9 +1222,12 @@ body {
     .pie__inferior span {
         font-size: 27px;
     }
+
+
+
     
     /*INDEX*/
-    .contenido__titulo {
+     .contenido__titulo {
         font-size: 1.5rem;
     }
     
@@ -1302,7 +1290,7 @@ body {
 }
 
 
-
+ 
 
 
 
