@@ -54,6 +54,32 @@ body {
     }
 }
 
+.pie__superior-redes--instagram {
+   color: grey;
+    
+}
+.pie__superior-redes--instagram:hover {
+    color: rgb(194, 32, 32);
+
+ }
+
+ .pie__superior-redes--facebook {
+    color: grey;
+ }
+
+ .pie__superior-redes--facebook:hover {
+    color: rgb(33, 33, 146);
+   
+ }
+
+ .pie__superior-redes--whatssup {
+    color: gray;
+ }
+
+ .pie__superior-redes--whatssup:hover {
+    color: green;
+ }
+
 
 /* ---------------------------------------------------------Estilos para el main de la pagina index------------------------------------------------------------------------*/
 
