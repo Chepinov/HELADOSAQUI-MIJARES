@@ -416,6 +416,12 @@ body {
         font-size: 1rem;
     }
 
+    .carousel__img {
+        width: 650px;
+        height: 400px;
+
+    }
+
         /*PRODUCTOS*/
 
     .productos__barquillos {
@@ -595,19 +601,24 @@ body {
         letter-spacing: 3px;
     }
     
-} */
+} 
 
 /*-------------------------MEDIAS QUERIES - PANTALLA HASTA 650PX------------------------*/
+
+
 @media screen and (max-width: 650px) {
 
-        /*PRODUCTO*/
+    .carousel__img {
+        width: 440px;
+        height: 300px;
+    }
+
     .productos__tarjetas--titulo {
         font-size: 1.4rem;
         padding-top: 0;
         padding-bottom: 1rem;
      }       
 
-    
     .productos__barquillos {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -983,6 +994,11 @@ body {
         padding-bottom: 1rem;
      }       
 
+     .carousel__img {
+        width: 350px;
+        height: 200px;
+     }
+
     
     .productos__barquillos {
         display: grid;
@@ -1318,6 +1334,17 @@ body {
     
 }
 
+
+@media screen and (max-width: 349px) {
+
+    .carousel__img {
+        width: 280px;
+        height: 120px;
+
+
+     }
+
+}
 
  
 
