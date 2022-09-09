@@ -8,7 +8,10 @@ body {
     font-family: 'Amatic SC', cursive;
     font-size: 2rem;
 }
-
+*::selection {
+    background-color: rgb(194, 185, 185);
+    color: darkred;
+}
 /*------------------------------------------------------------------Estilos para el header y footer de todas las paginas html------------------------------------------------------------*/
 
 /* --------------------------------------------------------------------------------Estilos para el header-------------------------------------------------------------------------------*/
@@ -74,6 +77,7 @@ body {
 
  .pie__superior-redes--whatssup {
     color: gray;
+    
  }
 
  .pie__superior-redes--whatssup:hover {
