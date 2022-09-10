@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+}
+*::selection {
+    background-color: rgb(194, 185, 185);
+    color: darkred;
+}
+
+.arriba {
+    position: absolute;
+     right: 1rem;
+     bottom: 1rem;
+     position: fixed;
+ }
+ 
+
+ .arriba a {
+     text-decoration: none;
+     color: darkred;  
+ }

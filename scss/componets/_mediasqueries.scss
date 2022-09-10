@@ -1,0 +1,43 @@
+@media screen and (max-width: 1000px) {
+
+    .carousel__img {
+        width: 650px;
+        height: 400px;
+
+    }
+    
+    
+}
+
+@media screen and (max-width: 650px) {
+    .carousel__img {
+        width: 440px;
+        height: 300px;
+    }
+    
+    
+    
+
+    
+}
+
+@media screen and (max-width: 440px) {
+
+    .somos__img {
+        display: none;
+    }
+    .somos__subtitulo {
+        display: grid;
+        justify-content: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: .1rem;
+
+    }
+
+    .somos__vision {
+        margin-top: 0;
+    }
+
+
+}

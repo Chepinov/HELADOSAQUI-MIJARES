@@ -1,0 +1,57 @@
+.index__titulo {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 10px;
+}
+
+
+
+@keyframes cardcambiocolor {
+    100%{
+        background-color: darkred;
+        color: white;
+
+    }
+    
+}
+
+.generico1{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    
+}
+
+.generico2{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+.generico3{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 7s;
+}
+
+.generico4{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 10s;
+}
+
+.generico5{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 13s;
+}
+.generico6{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 16s;
+}
+.generico7{
+    animation-name: cardcambiocolor;
+    animation-duration: 3s;
+    animation-delay: 19s;
+}
+

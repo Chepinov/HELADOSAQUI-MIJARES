@@ -1,0 +1,33 @@
+
+.somos__subtitulo {
+    display: none;
+}
+
+.somos__span {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.somos h2 {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: 2rem;
+}
+
+.blink-1 {
+    animation-name: blink-1;
+    animation-duration: 10s;
+}
+
+@keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
