@@ -5,6 +5,22 @@
         height: 400px;
 
     }
+
+    .somos__img {
+        display: none;
+    }
+    .somos__subtitulo {
+        display: grid;
+        justify-content: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: .1rem;
+
+    }
+
+    .contactanos__input {
+        width: 450px;
+    }
     
     
 }
@@ -13,6 +29,44 @@
     .carousel__img {
         width: 440px;
         height: 300px;
+    }
+
+    .somos__img {
+        display: none;
+    }
+    .somos__subtitulo {
+        display: grid;
+        justify-content: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: .1rem;
+
+    }
+
+    .encuentranos__table {
+        width: 90%;   
+    }
+
+    .encuentranos__img {
+        width: 280px;
+        height: 280px;
+    }
+    
+    .encuentranos__main p {
+        font-size: 1rem;
+    }
+    
+    .encuentranos__titulo {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    .contactos__datos-small {
+        display: block;
+    }
+
+    .contactanos__input {
+        width: 400px;
     }
     
     
@@ -39,5 +93,40 @@
         margin-top: 0;
     }
 
+    .pie__superior-ws--texto {
+        font-size: 20px;
+    }
+    .pie__superior-redes--texto {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .pie__inferior {
+        letter-spacing: 1px;
+        height: 60px;
+        font-size: 14px;
+    }
+    
+    .pie__inferior span {
+        font-size: 27px;
+    }
+
+    .contactanos__input {
+        width: 280px;
+    }
+    
+
+
+
+}
+
+@media screen and (max-width: 349px) {
+
+    .carousel__img {
+        width: 280px;
+        height: 120px;
+
+
+     }
 
 }
