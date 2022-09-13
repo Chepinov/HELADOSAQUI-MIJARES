@@ -1,4 +1,4 @@
-.productos__precio {
+.productos__card--precio {
     background-color: darkred;
     padding: 2rem 0;
     color: white;
@@ -21,4 +21,8 @@
 
 .productos {
     position: relative;
+}
+
+.productos__card p {
+    font-size: 1.7rem;
 }

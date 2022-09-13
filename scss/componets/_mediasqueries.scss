@@ -21,6 +21,11 @@
     .contactanos__input {
         width: 450px;
     }
+
+    .index__card--texto {
+        font-size: 1.5rem;
+    }
+    
     
     
 }
@@ -69,10 +74,47 @@
         width: 400px;
     }
     
+    .index__card {
+        justify-content: center;
+    }
+
+    .index__card--contenido {
+        width: 80%;
+    }
+
+    .index__card--texto {
+        font-size: 1.5rem;
+    }
+
+    
+
     
     
 
     
+}
+
+@media screen and (max-width: 575px) {
+
+    
+    .productos__card {
+        justify-content: center;
+    }
+
+
+    .productos__card--contenido {
+        width: 80%;
+
+    }
+
+    .productos__card--precio {
+        padding: 1.5rem 0;
+    }
+
+    .productos__card p {
+        font-size: 1.7rem;
+    }
+
 }
 
 @media screen and (max-width: 440px) {
@@ -115,9 +157,39 @@
         width: 280px;
     }
     
+    
+    .index__card {
+        justify-content: center;
+    
+    }
+
+    .index__card--contenido {
+        width: 80%;
+    }
+
+    .index__card--texto {
+        font-size: 1rem;
+    }
+
+    .productos__card {
+        justify-content: center;
+    }
 
 
+    .productos__card--contenido {
+        width: 80%;
 
+    }
+
+    .productos__card--precio {
+        padding: 1rem 0;
+    }
+
+    .productos__card p {
+        font-size: 1.2rem;
+    }
+
+    
 }
 
 @media screen and (max-width: 349px) {

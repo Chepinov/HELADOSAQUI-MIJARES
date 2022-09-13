@@ -84,6 +84,9 @@ body {
   font-family: 'Permanent Marker', cursive;
   letter-spacing: 10px; }
 
+.index__card--texto {
+  font-size: 1.7rem; }
+
 @keyframes cardcambiocolor {
   100% {
     background-color: darkred;
@@ -124,7 +127,7 @@ body {
   animation-duration: 3s;
   animation-delay: 19s; }
 
-.productos__precio {
+.productos__card--precio {
   background-color: darkred;
   padding: 2rem 0;
   color: white;
@@ -143,6 +146,9 @@ body {
 
 .productos {
   position: relative; }
+
+.productos__card p {
+  font-size: 1.7rem; }
 
 .somos__subtitulo {
   display: none; }
@@ -258,7 +264,9 @@ body {
     font-weight: bold;
     margin-bottom: .1rem; }
   .contactanos__input {
-    width: 450px; } }
+    width: 450px; }
+  .index__card--texto {
+    font-size: 1.5rem; } }
 
 @media screen and (max-width: 650px) {
   .carousel__img {
@@ -285,7 +293,23 @@ body {
   .contactos__datos-small {
     display: block; }
   .contactanos__input {
-    width: 400px; } }
+    width: 400px; }
+  .index__card {
+    justify-content: center; }
+  .index__card--contenido {
+    width: 80%; }
+  .index__card--texto {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 575px) {
+  .productos__card {
+    justify-content: center; }
+  .productos__card--contenido {
+    width: 80%; }
+  .productos__card--precio {
+    padding: 1.5rem 0; }
+  .productos__card p {
+    font-size: 1.7rem; } }
 
 @media screen and (max-width: 440px) {
   .somos__img {
@@ -310,7 +334,21 @@ body {
   .pie__inferior span {
     font-size: 27px; }
   .contactanos__input {
-    width: 280px; } }
+    width: 280px; }
+  .index__card {
+    justify-content: center; }
+  .index__card--contenido {
+    width: 80%; }
+  .index__card--texto {
+    font-size: 1rem; }
+  .productos__card {
+    justify-content: center; }
+  .productos__card--contenido {
+    width: 80%; }
+  .productos__card--precio {
+    padding: 1rem 0; }
+  .productos__card p {
+    font-size: 1.2rem; } }
 
 @media screen and (max-width: 349px) {
   .carousel__img {
