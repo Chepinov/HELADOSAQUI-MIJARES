@@ -1,19 +1,26 @@
 
-.somos__subtitulo {
-    display: none;
-}
-
-.somos__span {
-    font-weight: bold;
-    padding-right: 10px;
-}
-
-.somos h2 {
-    font-family: 'Permanent Marker', cursive;
+.somos {
+  & h2 {
+    font-family: $titulos;
     letter-spacing: 10px;
     text-align: center;
     margin: 2rem;
+
+  }
+
+  &__subtitulo {
+    display: none;
+  }
+  &__span {
+    font-weight: bold;
+    padding-right: 10px;
+
+  }
+ 
+
 }
+
+
 
 .blink-1 {
     animation-name: blink-1;

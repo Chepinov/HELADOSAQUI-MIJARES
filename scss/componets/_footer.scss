@@ -1,58 +1,65 @@
 
-.pie__superior-logo {
-    width: 80px;
-    height: 80px;
-    opacity: 0.5;
+.pie__superior {
+
+   &-logo {
+      width: 80px;
+      height: 80px;
+      opacity: 0.5;
+
+   }
+
+   &-redes {
+
+      &--instagram {
+         color: grey;
+      }
+
+      &--instagram:hover {
+         color: rgb(194, 32, 32);
+      }
+
+      &--facebook {
+         color: grey;
+      }
+
+      &--facebook:hover {
+         color: rgb(33, 33, 146);
+      }
+
+      &--whatssup {
+         color: gray;
+      }
+
+      &--whatssup:hover {
+         color: green;
+      }
+
+   }
+
+
 }
 
-.pie__inferior {
-    color:  white;
-    text-align: center;
-    letter-spacing: 3px;
-    font-size: 25px;
-    background: rgb(113,42,47);
-    background: linear-gradient(90deg, rgba(113,42,47,1) 16%, rgba(185,34,45,1) 53%, rgba(97,52,55,1) 100%);
+ .pie__inferior {
+   color:  white;
+   text-align: center;
+   letter-spacing: 3px;
+   font-size: 25px;
+   background: $fondo;
+   background: $gradiente;
+
+   span {
+      font-size: 27px;
+      animation: palpito 1s;
+      animation-iteration-count: infinite;
+
+   }
 }
 
-.pie__inferior span {
-    font-size: 27px;
-    animation: palpito 1s;
-    animation-iteration-count: infinite;
-}
+
 
 @keyframes palpito {
-    100% { color:  red;
+   100% { color:  red;
 
-    }
+   }
 }
-
-
-
-.pie__superior-redes--instagram {
-   color: grey;
-    
-}
-.pie__superior-redes--instagram:hover {
-    color: rgb(194, 32, 32);
-
- }
-
- .pie__superior-redes--facebook {
-    color: grey;
- }
-
- .pie__superior-redes--facebook:hover {
-    color: rgb(33, 33, 146);
-   
- }
-
- .pie__superior-redes--whatssup {
-    color: gray;
-    
- }
-
- .pie__superior-redes--whatssup:hover {
-    color: green;
- }
-
 

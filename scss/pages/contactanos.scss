@@ -1,55 +1,58 @@
-.contactanos__titulo {
-    font-family: 'Permanent Marker', cursive;
-    letter-spacing: 10px;
-    text-align: center;
-    grid-area: titulo;
-    
+.contactanos {
+    &__titulo {
+        font-family: $titulos;
+        letter-spacing: 10px;
+        text-align: center;
+        grid-area: titulo;
+
+    }
+    &__datos {
+        grid-area: datos;
+         text-align: center;
+        padding: 1rem;
+        color: white;
+        background: $fondo;
+        background: $gradiente;
+
+    }
+
+    &__input {
+        border: none;
+        border-bottom: solid grey;
+        display: block;
+        width: 600px;
+        margin-bottom: 15px;
+        height: 40px;
+
+    }
+
+    &__input:hover {
+        border-bottom: solid $principal;
+
+    }
+
+    &__btn {
+        padding: 5px 20px;
+        border: none;
+        background-color:$principal;
+        border-radius: 5px;
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    &__btn:hover {
+        background-color: black;
+    }
 }
 
-.contactanos__datos {
-    grid-area: datos;
-    text-align: center;
-    padding: 1rem;
-    color: white;
-    background: rgb(113,42,47);
-    background: linear-gradient(90deg, rgba(113,42,47,1) 16%, rgba(185,34,45,1) 53%, rgba(97,52,55,1) 100%);
-    
 
-}
-
-.contactanos__input {
-    border: none;
-    border-bottom: solid grey;
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
-    height: 40px;
-    
-}
-
-.contactanos__btn {
-    padding: 5px 20px;
-    border: none;
-    background-color:darkred;
-    border-radius: 5px;
-    color: white;
-    font-size: 1.3rem;
-    
-}
-
-.contactanos__btn:hover {
-    background-color: black;
-}
-
-.contactanos__input:hover {
-    border-bottom: solid darkred;
-}
 
 .contactos__contenedor--botones {
     display: flex;
     justify-content: space-evenly;
 }
 
-.contactanos__input {
-    width: 600px;
+
+.contactos__datos-small {
+    display: block;
 }

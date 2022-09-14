@@ -6,17 +6,21 @@
 
     }
 
-    .somos__img {
-        display: none;
-    }
-    .somos__subtitulo {
-        display: grid;
-        justify-content: center;
-        font-size: 3rem;
-        font-weight: bold;
-        margin-bottom: .1rem;
+    .somos {
+        &__img {
+            display: none;
+        }
+        &__subtitulo {
+            display: grid;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: .1rem;
+    
+        }
 
     }
+    
 
     .contactanos__input {
         width: 450px;
@@ -36,36 +40,47 @@
         height: 300px;
     }
 
-    .somos__img {
-        display: none;
-    }
-    .somos__subtitulo {
-        display: grid;
-        justify-content: center;
-        font-size: 3rem;
-        font-weight: bold;
-        margin-bottom: .1rem;
+    .somos {
+        &__img {
+            display: none;
+        }
+        &__subtitulo {
+            display: grid;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: .1rem;
+    
+        }
 
-    }
-
-    .encuentranos__table {
-        width: 90%;   
-    }
-
-    .encuentranos__img {
-        width: 280px;
-        height: 280px;
     }
     
-    .encuentranos__main p {
-        font-size: 1rem;
+    .encuentranos {
+
+        &__table {
+            width: 90%;   
+        }
+    
+        &__img {
+            width: 280px;
+            height: 280px;
+        }
+
+        &__titulo {
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+        }
+
+        &__main {
+            & p {
+                font-size: 1rem;
+            }
+            
+        }
+        
+
     }
     
-    .encuentranos__titulo {
-        font-size: 1.5rem;
-        letter-spacing: 1px;
-    }
-
     .contactos__datos-small {
         display: block;
     }
@@ -76,22 +91,16 @@
     
     .index__card {
         justify-content: center;
+
+        &--contenido {
+            width: 80%;
+        }
+    
+        &--texto {
+            font-size: 1.5rem;
+        }
     }
 
-    .index__card--contenido {
-        width: 80%;
-    }
-
-    .index__card--texto {
-        font-size: 1.5rem;
-    }
-
-    
-
-    
-    
-
-    
 }
 
 @media screen and (max-width: 575px) {
@@ -99,42 +108,54 @@
     
     .productos__card {
         justify-content: center;
+
+        &--contenido {
+            width: 80%;
+    
+        }
+    
+        &--precio {
+            padding: 1.5rem 0;
+        }
+    
+        & p {
+            font-size: 1.7rem;
+        }
     }
 
 
-    .productos__card--contenido {
-        width: 80%;
-
-    }
-
-    .productos__card--precio {
-        padding: 1.5rem 0;
-    }
-
-    .productos__card p {
-        font-size: 1.7rem;
-    }
+    
 
 }
 
 @media screen and (max-width: 440px) {
 
-    .somos__img {
-        display: none;
-    }
-    .somos__subtitulo {
-        display: grid;
-        justify-content: center;
-        font-size: 3rem;
-        font-weight: bold;
-        margin-bottom: .1rem;
+    .somos {
+        &__img {
+            display: none;
+        }
+        &__subtitulo {
+            display: grid;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: .1rem;
+    
+        }
+        &__vision {
+            margin-top: 0;
+        }
+
+        &__img {
+            &--personas {
+                width: 300px;
+            }
+            
+        }
+    
 
     }
-
-    .somos__vision {
-        margin-top: 0;
-    }
-
+    
     .pie__superior-ws--texto {
         font-size: 20px;
     }
@@ -160,35 +181,37 @@
     
     .index__card {
         justify-content: center;
+
+        &--contenido {
+            width: 80%;
+        }
+    
+        &--texto {
+            font-size: 1rem;
+        }
     
     }
 
-    .index__card--contenido {
-        width: 80%;
-    }
-
-    .index__card--texto {
-        font-size: 1rem;
-    }
+    
 
     .productos__card {
         justify-content: center;
+
+        &--contenido {
+            width: 80%;
+    
+        }
+    
+        &--precio {
+            padding: 1rem 0;
+        }
+    
+        & p {
+            font-size: 1.2rem;
+        }
+
+
     }
-
-
-    .productos__card--contenido {
-        width: 80%;
-
-    }
-
-    .productos__card--precio {
-        padding: 1rem 0;
-    }
-
-    .productos__card p {
-        font-size: 1.2rem;
-    }
-
     
 }
 

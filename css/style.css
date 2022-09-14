@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 2rem; }
 
 *::selection {
@@ -16,26 +16,24 @@ body {
   right: 1rem;
   bottom: 1rem;
   position: fixed; }
-
-.arriba a {
-  text-decoration: none;
-  color: darkred; }
+  .arriba a {
+    text-decoration: none;
+    color: darkred; }
 
 .encabezado {
   background: #712a2f;
   background: linear-gradient(90deg, #712a2f 16%, #b9222d 53%, #613437 100%); }
+  .encabezado__menu {
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 3rem; }
 
 .nav-link {
   text-decoration: none;
   color: white;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   font-size: 1.4rem; }
-
-.encabezado__menu {
-  color: whitesmoke;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 3rem; }
 
 .navbar-toggler {
   border: none; }
@@ -44,23 +42,6 @@ body {
   width: 80px;
   height: 80px;
   opacity: 0.5; }
-
-.pie__inferior {
-  color: white;
-  text-align: center;
-  letter-spacing: 3px;
-  font-size: 25px;
-  background: #712a2f;
-  background: linear-gradient(90deg, #712a2f 16%, #b9222d 53%, #613437 100%); }
-
-.pie__inferior span {
-  font-size: 27px;
-  animation: palpito 1s;
-  animation-iteration-count: infinite; }
-
-@keyframes palpito {
-  100% {
-    color: red; } }
 
 .pie__superior-redes--instagram {
   color: grey; }
@@ -80,8 +61,24 @@ body {
 .pie__superior-redes--whatssup:hover {
   color: green; }
 
+.pie__inferior {
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 25px;
+  background: #712a2f;
+  background: linear-gradient(90deg, #712a2f 16%, #b9222d 53%, #613437 100%); }
+  .pie__inferior span {
+    font-size: 27px;
+    animation: palpito 1s;
+    animation-iteration-count: infinite; }
+
+@keyframes palpito {
+  100% {
+    color: red; } }
+
 .index__titulo {
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   letter-spacing: 10px; }
 
 .index__card--texto {
@@ -127,28 +124,30 @@ body {
   animation-duration: 3s;
   animation-delay: 19s; }
 
-.productos__card--precio {
-  background-color: darkred;
-  padding: 2rem 0;
-  color: white;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px; }
-
-.productos__transform:hover {
-  transform: scale(1.1); }
-
-.productos__titulo {
-  font-family: 'Permanent Marker', cursive;
-  letter-spacing: 10px;
-  text-align: center;
-  margin: 2rem;
-  margin-bottom: 0; }
-
 .productos {
   position: relative; }
+  .productos__titulo {
+    font-family: "Permanent Marker", cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: 2rem;
+    margin-bottom: 0; }
+  .productos__transform:hover {
+    transform: scale(1.1); }
+  .productos__card--precio {
+    background-color: darkred;
+    padding: 2rem 0;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
+  .productos__card p {
+    font-size: 1.7rem; }
 
-.productos__card p {
-  font-size: 1.7rem; }
+.somos h2 {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: 2rem; }
 
 .somos__subtitulo {
   display: none; }
@@ -156,12 +155,6 @@ body {
 .somos__span {
   font-weight: bold;
   padding-right: 10px; }
-
-.somos h2 {
-  font-family: 'Permanent Marker', cursive;
-  letter-spacing: 10px;
-  text-align: center;
-  margin: 2rem; }
 
 .blink-1 {
   animation-name: blink-1;
@@ -177,7 +170,7 @@ body {
     opacity: 0; } }
 
 .encuentranos__titulo {
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Amatic SC", cursive;
   letter-spacing: 10px;
   text-align: center;
   margin: 2rem; }
@@ -197,19 +190,17 @@ body {
   margin-right: auto;
   text-align: center;
   margin-bottom: 2rem; }
-
-.encuentranos__table td {
-  background-color: #c6c1c1;
-  border-radius: 5px; }
-
-.encuentranos__table th {
-  background: #712a2f;
-  background: linear-gradient(90deg, #712a2f 16%, #b9222d 53%, #613437 100%);
-  border-radius: 5px;
-  color: white; }
+  .encuentranos__table td {
+    background-color: #c6c1c1;
+    border-radius: 5px; }
+  .encuentranos__table th {
+    background: #712a2f;
+    background: linear-gradient(90deg, #712a2f 16%, #b9222d 53%, #613437 100%);
+    border-radius: 5px;
+    color: white; }
 
 .contactanos__titulo {
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   letter-spacing: 10px;
   text-align: center;
   grid-area: titulo; }
@@ -226,9 +217,12 @@ body {
   border: none;
   border-bottom: solid grey;
   display: block;
-  width: 100%;
+  width: 600px;
   margin-bottom: 15px;
   height: 40px; }
+
+.contactanos__input:hover {
+  border-bottom: solid darkred; }
 
 .contactanos__btn {
   padding: 5px 20px;
@@ -241,15 +235,12 @@ body {
 .contactanos__btn:hover {
   background-color: black; }
 
-.contactanos__input:hover {
-  border-bottom: solid darkred; }
-
 .contactos__contenedor--botones {
   display: flex;
   justify-content: space-evenly; }
 
-.contactanos__input {
-  width: 600px; }
+.contactos__datos-small {
+  display: block; }
 
 @media screen and (max-width: 1000px) {
   .carousel__img {
@@ -285,31 +276,31 @@ body {
   .encuentranos__img {
     width: 280px;
     height: 280px; }
-  .encuentranos__main p {
-    font-size: 1rem; }
   .encuentranos__titulo {
     font-size: 1.5rem;
     letter-spacing: 1px; }
+  .encuentranos__main p {
+    font-size: 1rem; }
   .contactos__datos-small {
     display: block; }
   .contactanos__input {
     width: 400px; }
   .index__card {
     justify-content: center; }
-  .index__card--contenido {
-    width: 80%; }
-  .index__card--texto {
-    font-size: 1.5rem; } }
+    .index__card--contenido {
+      width: 80%; }
+    .index__card--texto {
+      font-size: 1.5rem; } }
 
 @media screen and (max-width: 575px) {
   .productos__card {
     justify-content: center; }
-  .productos__card--contenido {
-    width: 80%; }
-  .productos__card--precio {
-    padding: 1.5rem 0; }
-  .productos__card p {
-    font-size: 1.7rem; } }
+    .productos__card--contenido {
+      width: 80%; }
+    .productos__card--precio {
+      padding: 1.5rem 0; }
+    .productos__card p {
+      font-size: 1.7rem; } }
 
 @media screen and (max-width: 440px) {
   .somos__img {
@@ -322,6 +313,8 @@ body {
     margin-bottom: .1rem; }
   .somos__vision {
     margin-top: 0; }
+  .somos__img--personas {
+    width: 300px; }
   .pie__superior-ws--texto {
     font-size: 20px; }
   .pie__superior-redes--texto {
@@ -337,18 +330,18 @@ body {
     width: 280px; }
   .index__card {
     justify-content: center; }
-  .index__card--contenido {
-    width: 80%; }
-  .index__card--texto {
-    font-size: 1rem; }
+    .index__card--contenido {
+      width: 80%; }
+    .index__card--texto {
+      font-size: 1rem; }
   .productos__card {
     justify-content: center; }
-  .productos__card--contenido {
-    width: 80%; }
-  .productos__card--precio {
-    padding: 1rem 0; }
-  .productos__card p {
-    font-size: 1.2rem; } }
+    .productos__card--contenido {
+      width: 80%; }
+    .productos__card--precio {
+      padding: 1rem 0; }
+    .productos__card p {
+      font-size: 1.2rem; } }
 
 @media screen and (max-width: 349px) {
   .carousel__img {

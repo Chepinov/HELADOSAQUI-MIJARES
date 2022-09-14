@@ -1,36 +1,52 @@
 
-.encuentranos__titulo {
-    font-family: 'Permanent Marker', cursive;
-    letter-spacing: 10px;
-    text-align: center;
-    margin: 2rem;
+.encuentranos {
+    &__titulo {
+        font-family: $texto;
+        letter-spacing: 10px;
+        text-align: center;
+        margin: 2rem;
+
+    }
+
+    &__img {
+        width: 450px;
+        height: 400px;
+        outline: solid $principal 5px;
+
+    }
+
+    &__iframe {
+        border-radius: 10px;
+        outline: solid $principal 5px;
+
+    }
+
+    &__table {
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 2rem;
+
+        & td {
+            background-color: rgb(198, 193, 193);
+            border-radius: 5px;
+
+        }
+
+        & th {
+            background: $fondo;
+            background: $gradiente;
+            border-radius: 5px;
+            color: white;
+
+        }
+
+        
+
+    }
 }
 
-.encuentranos__img {
-    width: 450px;
-    height: 400px;
-    outline: solid darkred 5px;
-}
 
-.encuentranos__iframe {
-    border-radius: 10px;
-    outline: solid darkred 5px;
-}
 
-.encuentranos__table {
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-.encuentranos__table td {
-    background-color: rgb(198, 193, 193);
-    border-radius: 5px;
-}
-.encuentranos__table th {
-    background: rgb(113,42,47);
-    background: linear-gradient(90deg, rgba(113,42,47,1) 16%, rgba(185,34,45,1) 53%, rgba(97,52,55,1) 100%);
-    border-radius: 5px;
-    color: white;
-}
+

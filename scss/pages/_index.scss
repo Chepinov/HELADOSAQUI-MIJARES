@@ -1,5 +1,5 @@
 .index__titulo {
-    font-family: 'Permanent Marker', cursive;
+    font-family: $titulos;
     letter-spacing: 10px;
 }
 
@@ -11,7 +11,7 @@
 
 @keyframes cardcambiocolor {
     100%{
-        background-color: darkred;
+        background-color: $principal;
         color: white;
 
     }

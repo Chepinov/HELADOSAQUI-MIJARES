@@ -1,28 +1,35 @@
-.productos__card--precio {
-    background-color: darkred;
-    padding: 2rem 0;
-    color: white;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.productos__transform:hover {
-    transform: scale(1.1);   
-}
-
-
-.productos__titulo {
-    font-family: 'Permanent Marker', cursive;
-    letter-spacing: 10px;
-    text-align: center;
-    margin: 2rem;
-    margin-bottom: 0;
-}
 
 .productos {
     position: relative;
+
+    &__titulo {
+        font-family: $titulos;
+        letter-spacing: 10px;
+        text-align: center;
+        margin: 2rem;
+        margin-bottom: 0;
+
+    }
+
+    &__transform:hover {
+        transform: scale(1.1); 
+
+    }
+
+    &__card {
+
+        &--precio {
+            background-color: $principal;
+            padding: 2rem 0;
+            color: white;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+        }
+
+        & p {
+            font-size: 1.7rem;
+        }
+    }
 }
 
-.productos__card p {
-    font-size: 1.7rem;
-}

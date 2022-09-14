@@ -1,23 +1,24 @@
 
 .encabezado {
-    background: rgb(113,42,47);
-    background: linear-gradient(90deg, rgba(113,42,47,1) 16%, rgba(185,34,45,1) 53%, rgba(97,52,55,1) 100%);
+    background: $fondo;
+    background: $gradiente;
+
+    &__menu {
+        color: whitesmoke;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 3rem;    
+
+    }
 }
 
 .nav-link {
     text-decoration: none;
     color: white;
-    font-family: 'Permanent Marker', cursive;
+    font-family: $titulos;
     font-size: 1.4rem;
 }
 
-.encabezado__menu {
-    color: whitesmoke;
-    border-radius: 5px;
-    padding: 5px;
-    font-size: 3rem;
-    
-}
 
 .navbar-toggler {
     border: none;
