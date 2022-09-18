@@ -1,10 +1,7 @@
 .contactanos {
     &__titulo {
-        font-family: $titulos;
-        letter-spacing: 10px;
-        text-align: center;
-        grid-area: titulo;
-
+        @extend .titulos;
+        
     }
     &__datos {
         grid-area: datos;

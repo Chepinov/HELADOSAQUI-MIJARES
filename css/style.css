@@ -20,6 +20,11 @@ body {
     text-decoration: none;
     color: darkred; }
 
+.titulos, .index__titulo, .productos__titulo, .somos h2, .encuentranos__titulo, .contactanos__titulo {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 10px;
+  text-align: center; }
+
 .encabezado {
   background: #712a2f;
   background: linear-gradient(90deg, #712a2f 16%, #b9222d 53%, #613437 100%); }
@@ -43,22 +48,13 @@ body {
   height: 80px;
   opacity: 0.5; }
 
-.pie__superior-redes--instagram {
-  color: grey; }
-
-.pie__superior-redes--instagram:hover {
-  color: #c22020; }
-
-.pie__superior-redes--facebook {
-  color: grey; }
-
-.pie__superior-redes--facebook:hover {
+.bi-facebook {
   color: #212192; }
 
-.pie__superior-redes--whatssup {
-  color: gray; }
+.bi-instagram {
+  color: #c22020; }
 
-.pie__superior-redes--whatssup:hover {
+.bi-whatsapp {
   color: green; }
 
 .pie__inferior {
@@ -76,10 +72,6 @@ body {
 @keyframes palpito {
   100% {
     color: red; } }
-
-.index__titulo {
-  font-family: "Permanent Marker", cursive;
-  letter-spacing: 10px; }
 
 .index__card--texto {
   font-size: 1.7rem; }
@@ -127,9 +119,6 @@ body {
 .productos {
   position: relative; }
   .productos__titulo {
-    font-family: "Permanent Marker", cursive;
-    letter-spacing: 10px;
-    text-align: center;
     margin: 2rem;
     margin-bottom: 0; }
   .productos__transform:hover {
@@ -144,9 +133,6 @@ body {
     font-size: 1.7rem; }
 
 .somos h2 {
-  font-family: "Permanent Marker", cursive;
-  letter-spacing: 10px;
-  text-align: center;
   margin: 2rem; }
 
 .somos__subtitulo {
@@ -170,9 +156,6 @@ body {
     opacity: 0; } }
 
 .encuentranos__titulo {
-  font-family: "Permanent Marker", cursive;
-  letter-spacing: 10px;
-  text-align: center;
   margin: 2rem; }
 
 .encuentranos__img {
@@ -198,12 +181,6 @@ body {
     background: linear-gradient(90deg, #712a2f 16%, #b9222d 53%, #613437 100%);
     border-radius: 5px;
     color: white; }
-
-.contactanos__titulo {
-  font-family: "Permanent Marker", cursive;
-  letter-spacing: 10px;
-  text-align: center;
-  grid-area: titulo; }
 
 .contactanos__datos {
   grid-area: datos;

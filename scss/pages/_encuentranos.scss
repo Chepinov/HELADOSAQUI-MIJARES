@@ -1,16 +1,13 @@
 
 .encuentranos {
     &__titulo {
-        font-family: $titulos;
-        letter-spacing: 10px;
-        text-align: center;
+        @extend .titulos;
         margin: 2rem;
 
     }
 
     &__img {
-        width: 450px;
-        height: 400px;
+        @include fotos (450px, 400px);
         outline: solid $principal 5px;
 
     }

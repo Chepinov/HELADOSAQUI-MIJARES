@@ -1,6 +1,5 @@
 .index__titulo {
-    font-family: $titulos;
-    letter-spacing: 10px;
+    @extend .titulos;
 }
 
 .index__card--texto {

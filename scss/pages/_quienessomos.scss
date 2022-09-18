@@ -1,9 +1,7 @@
 
 .somos {
   & h2 {
-    font-family: $titulos;
-    letter-spacing: 10px;
-    text-align: center;
+    @extend .titulos;
     margin: 2rem;
 
   }

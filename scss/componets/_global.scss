@@ -25,6 +25,18 @@ body {
 
      }
  }
+
+ .titulos {
+    font-family: $titulos;
+    letter-spacing: 10px;
+    text-align: center;
+ }
+
+ @mixin  fotos ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+    
+ }
  
 
  

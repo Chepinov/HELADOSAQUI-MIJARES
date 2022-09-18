@@ -8,35 +8,50 @@
 
    }
 
-   &-redes {
+   // &-redes {
 
-      &--instagram {
-         color: grey;
-      }
+   //    &--instagram {
+   //       color: grey;
+   //    }
 
-      &--instagram:hover {
-         color: rgb(194, 32, 32);
-      }
+   //    &--instagram:hover {
+   //       color: rgb(194, 32, 32);
+   //    }
 
-      &--facebook {
-         color: grey;
-      }
+   //    &--facebook {
+   //       color: grey;
+   //    }
 
-      &--facebook:hover {
-         color: rgb(33, 33, 146);
-      }
+   //    &--facebook:hover {
+   //       color: rgb(33, 33, 146);
+   //    }
 
-      &--whatssup {
-         color: gray;
-      }
+   //    &--whatssup {
+   //       color: gray;
+   //    }
 
-      &--whatssup:hover {
-         color: green;
-      }
+   //    &--whatssup:hover {
+   //       color: green;
+   //    }
+
+   // }
+
+
+}
+
+$redes: (
+   facebook:rgb(33, 33, 146),
+   instagram:rgb(194, 32, 32),
+   whatsapp: green
+
+);
+
+@each $redsocial, $color in $redes {
+   .bi-#{$redsocial} {
+      color: $color;
 
    }
-
-
+   
 }
 
  .pie__inferior {
