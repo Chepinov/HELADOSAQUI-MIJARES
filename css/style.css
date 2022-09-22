@@ -48,14 +48,23 @@ body {
   height: 80px;
   opacity: 0.5; }
 
-.bi-facebook {
-  color: #212192; }
-
-.bi-instagram {
+.pie__superior-redes--instagram:hover {
   color: #c22020; }
 
-.bi-whatsapp {
+.pie__superior-redes--facebook:hover {
+  color: #212192; }
+
+.pie__superior-redes--whatssup:hover {
   color: green; }
+
+.bi-facebook {
+  color: gray; }
+
+.bi-instagram {
+  color: gray; }
+
+.bi-whatsapp {
+  color: gray; }
 
 .pie__inferior {
   color: white;

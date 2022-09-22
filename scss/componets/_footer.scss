@@ -8,41 +8,29 @@
 
    }
 
-   // &-redes {
+   &-redes {
 
-   //    &--instagram {
-   //       color: grey;
-   //    }
+      &--instagram:hover {
+         color: rgb(194, 32, 32);
+      }
 
-   //    &--instagram:hover {
-   //       color: rgb(194, 32, 32);
-   //    }
+      &--facebook:hover {
+         color: rgb(33, 33, 146);
+      }
 
-   //    &--facebook {
-   //       color: grey;
-   //    }
+      &--whatssup:hover {
+         color: green;
+      }
 
-   //    &--facebook:hover {
-   //       color: rgb(33, 33, 146);
-   //    }
-
-   //    &--whatssup {
-   //       color: gray;
-   //    }
-
-   //    &--whatssup:hover {
-   //       color: green;
-   //    }
-
-   // }
+   }
 
 
 }
 
 $redes: (
-   facebook:rgb(33, 33, 146),
-   instagram:rgb(194, 32, 32),
-   whatsapp: green
+   facebook:gray,
+   instagram:gray,
+   whatsapp: gray
 
 );
 
